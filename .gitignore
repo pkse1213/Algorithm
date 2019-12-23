@@ -1,171 +1,74 @@
-Last login: Wed Dec 18 18:29:12 on console
- parkseeun@bagseeun-ui-MacBook-Pro  ~  cd algorithm
 
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ●✚ 
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ●✚  git add .
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ✚  git commit -m "again" -a
-[master 60dfab0] again
- 24 files changed, 784 insertions(+), 190 deletions(-)
- create mode 100644 .idea/Algorithm.iml
- delete mode 100644 C/Algorithm.xcodeproj/project.xcworkspace/xcuserdata/parkseeun.xcuserdatad/UserInterfaceState.xcuserstate
- create mode 100644 C/Algorithm/Algorithm.xcodeproj/project.pbxproj
- rename C/{ => Algorithm}/Algorithm.xcodeproj/project.xcworkspace/contents.xcworkspacedata (100%)
- rename C/{ => Algorithm}/Algorithm.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist (100%)
- create mode 100644 C/Algorithm/Algorithm.xcodeproj/project.xcworkspace/xcuserdata/parkseeun.xcuserdatad/UserInterfaceState.xcuserstate
- create mode 100644 C/Algorithm/Algorithm.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
- rename C/{ => Algorithm}/Algorithm.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcschemes/xcschememanagement.plist (66%)
- create mode 100644 C/Algorithm/Algorithm/main.cpp
- create mode 100644 C/Algorithm/KMP/B_1701/main.cpp
- rename C/{ => Elementary}/Algorithm.xcodeproj/project.pbxproj (73%)
- create mode 100644 C/Elementary/Algorithm.xcodeproj/project.xcworkspace/contents.xcworkspacedata
- create mode 100644 C/Elementary/Algorithm.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
- create mode 100644 C/Elementary/Algorithm.xcodeproj/project.xcworkspace/xcuserdata/parkseeun.xcuserdatad/UserInterfaceState.xcuserstate
- create mode 100644 C/Elementary/Algorithm.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcschemes/xcschememanagement.plist
- rename C/{ => Elementary}/Algorithm/elementary.cpp (100%)
- create mode 100644 C/Elementary/Baekjoon/Main_1701.cpp
- create mode 100644 C/Elementary/Main_1701/main.cpp
- create mode 100644 CMakeLists.txt
- create mode 100644 main.cpp
+# Created by https://www.gitignore.io/api/c++,xcode
+# Edit at https://www.gitignore.io/?templates=c++,xcode
 
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master 
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master  git push origin master
-Enumerating objects: 58, done.
-Counting objects: 100% (58/58), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (37/37), done.
-Writing objects: 100% (47/47), 34.30 KiB | 5.72 MiB/s, done.
-Total 47 (delta 11), reused 0 (delta 0)
-remote: Resolving deltas: 100% (11/11), completed with 5 local objects.
-To https://github.com/pkse1213/Algorithm.git
-   61cf0cb..60dfab0  master -> master
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master  vi .gitignore
- ✘ parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ●  open .gitignore
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ●  git add .
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ✚  git commit -m "modify .gitignore" -a
-[master 935f55c] modify .gitignore
- 38 files changed, 188 insertions(+), 77 deletions(-)
- rename {C => old/C}/Algorithm/Algorithm.xcodeproj/project.pbxproj (100%)
- rename {C => old/C}/Algorithm/Algorithm.xcodeproj/project.xcworkspace/contents.xcworkspacedata (100%)
- rename {C => old/C}/Algorithm/Algorithm.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist (100%)
- rename {C => old/C}/Algorithm/Algorithm.xcodeproj/project.xcworkspace/xcuserdata/parkseeun.xcuserdatad/UserInterfaceState.xcuserstate (100%)
- rename {C => old/C}/Algorithm/Algorithm.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist (100%)
- rename {C => old/C}/Algorithm/Algorithm.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcschemes/xcschememanagement.plist (100%)
- rename {C => old/C}/Algorithm/Algorithm/main.cpp (100%)
- rename {C => old/C}/Algorithm/KMP/B_1701/main.cpp (100%)
- rename {C => old/C}/Elementary/Algorithm.xcodeproj/project.pbxproj (100%)
- rename {C => old/C}/Elementary/Algorithm.xcodeproj/project.xcworkspace/contents.xcworkspacedata (100%)
- rename {C => old/C}/Elementary/Algorithm.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist (100%)
- rename {C => old/C}/Elementary/Algorithm.xcodeproj/project.xcworkspace/xcuserdata/parkseeun.xcuserdatad/UserInterfaceState.xcuserstate (100%)
- rename {C => old/C}/Elementary/Algorithm.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcschemes/xcschememanagement.plist (100%)
- rename {C => old/C}/Elementary/Algorithm/elementary.cpp (100%)
- rename {C => old/C}/Elementary/Baekjoon/Main_1701.cpp (100%)
- rename {C => old/C}/Elementary/Main_1701/main.cpp (100%)
- rename {C => old/C}/Main_1874/Main_1874.xcodeproj/project.pbxproj (100%)
- rename {C => old/C}/Main_1874/Main_1874.xcodeproj/project.xcworkspace/contents.xcworkspacedata (100%)
- rename {C => old/C}/Main_1874/Main_1874.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist (100%)
- rename {C => old/C}/Main_1874/Main_1874.xcodeproj/project.xcworkspace/xcuserdata/parkseeun.xcuserdatad/UserInterfaceState.xcuserstate (100%)
- rename {C => old/C}/Main_1874/Main_1874.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcschemes/xcschememanagement.plist (100%)
- rename {C => old/C}/Main_1874/Main_1874/main.cpp (100%)
- rename {JAVA => old/JAVA}/.idea/JAVA.iml (100%)
- create mode 100644 old/JAVA/.idea/encodings.xml
- rename {JAVA => old/JAVA}/.idea/misc.xml (100%)
- rename {JAVA => old/JAVA}/.idea/modules.xml (100%)
- rename {JAVA => old/JAVA}/.idea/vcs.xml (100%)
- rename {JAVA => old/JAVA}/.idea/workspace.xml (80%)
- rename {JAVA => old/JAVA}/Algorithm.iml (100%)
- rename {JAVA => old/JAVA}/src/beakjoon/Main_10828.java (100%)
- rename {JAVA => old/JAVA}/src/beakjoon/Main_12100.java (100%)
- rename {JAVA => old/JAVA}/src/beakjoon/Main_14530.java (100%)
- rename {JAVA => old/JAVA}/src/beakjoon/Main_1874.java (100%)
- rename {JAVA => old/JAVA}/src/samsung/Solution_2043.java (100%)
- rename {JAVA => old/JAVA}/src/samsung/Solution_4613.java (100%)
- rename main.cpp => old/main.cpp (100%)
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master  git push origin master
-Enumerating objects: 14, done.
-Counting objects: 100% (14/14), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (10/10), done.
-Writing objects: 100% (10/10), 2.59 KiB | 2.59 MiB/s, done.
-Total 10 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
-To https://github.com/pkse1213/Algorithm.git
-   60dfab0..935f55c  master -> master
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master  ls -a
-.                 .DS_Store         .gitignore        CMakeLists.txt    cmake-build-debug
-..                .git              .idea             README.md         old
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master  open .idea
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master  ls -a
-.          ..         .DS_Store  .git       .gitignore .idea      README.md
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ●  open .idea
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ●  ls -a
-.          ..         .DS_Store  .git       .gitignore README.md
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ●  git add .
+### C++ ###
+# Prerequisites
+*.d
 
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ✚ 
- parkseeun@bagseeun-ui-MacBook-Pro  ~/algorithm   master ✚  git commit -m "reset" -a
-[master 78ba194] reset
- 43 files changed, 2660 deletions(-)
- delete mode 100644 .idea/Algorithm.iml
- delete mode 100644 .idea/misc.xml
- delete mode 100644 .idea/modules.xml
- delete mode 100644 .idea/uiDesigner.xml
- delete mode 100644 .idea/vcs.xml
- delete mode 100644 .idea/workspace.xml
- delete mode 100644 CMakeLists.txt
- delete mode 100644 old/C/Algorithm/Algorithm.xcodeproj/project.pbxproj
- delete mode 100644 old/C/Algorithm/Algorithm.xcodeproj/project.xcworkspace/contents.xcworkspacedata
- delete mode 100644 old/C/Algorithm/Algorithm.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
- delete mode 100644 old/C/Algorithm/Algorithm.xcodeproj/project.xcworkspace/xcuserdata/parkseeun.xcuserdatad/UserInterfaceState.xcuserstate
- delete mode 100644 old/C/Algorithm/Algorithm.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
- delete mode 100644 old/C/Algorithm/Algorithm.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcschemes/xcschememanagement.plist
- delete mode 100644 old/C/Algorithm/Algorithm/main.cpp
- delete mode 100644 old/C/Algorithm/KMP/B_1701/main.cpp
- delete mode 100644 old/C/Elementary/Algorithm.xcodeproj/project.pbxproj
- delete mode 100644 old/C/Elementary/Algorithm.xcodeproj/project.xcworkspace/contents.xcworkspacedata
- delete mode 100644 old/C/Elementary/Algorithm.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
- delete mode 100644 old/C/Elementary/Algorithm.xcodeproj/project.xcworkspace/xcuserdata/parkseeun.xcuserdatad/UserInterfaceState.xcuserstate
- delete mode 100644 old/C/Elementary/Algorithm.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcschemes/xcschememanagement.plist
- delete mode 100644 old/C/Elementary/Algorithm/elementary.cpp
- delete mode 100644 old/C/Elementary/Baekjoon/Main_1701.cpp
- delete mode 100644 old/C/Elementary/Main_1701/main.cpp
- delete mode 100644 old/C/Main_1874/Main_1874.xcodeproj/project.pbxproj
- delete mode 100644 old/C/Main_1874/Main_1874.xcodeproj/project.xcworkspace/contents.xcworkspacedata
- delete mode 100644 old/C/Main_1874/Main_1874.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
- delete mode 100644 old/C/Main_1874/Main_1874.xcodeproj/project.xcworkspace/xcuserdata/parkseeun.xcuserdatad/UserInterfaceState.xcuserstate
- delete mode 100644 old/C/Main_1874/Main_1874.xcodeproj/xcuserdata/parkseeun.xcuserdatad/xcschemes/xcschememanagement.plist
- delete mode 100644 old/C/Main_1874/Main_1874/main.cpp
- delete mode 100644 old/JAVA/.idea/JAVA.iml
- delete mode 100644 old/JAVA/.idea/encodings.xml
- delete mode 100644 old/JAVA/.idea/misc.xml
- delete mode 100644 old/JAVA/.idea/modules.xml
- delete mode 100644 old/JAVA/.idea/vcs.xml
- delete mode 100644 old/JAVA/.idea/workspace.xml
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-".gitignore" [New File]
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+### Xcode ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+### Xcode Patch ###
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.gitignore.io/api/c++,xcode
