@@ -1,8 +1,6 @@
 /*
- SW Expert Academy
- 
- 
- */
+
+*/
 
 #include <iostream>
 #include <algorithm>
@@ -12,9 +10,7 @@
 using namespace std;
 
 int T;
-
 //여기부터
-
 
 int main(int argc, char** argv)
 {
