@@ -48,6 +48,8 @@ bool dfs(int r, int c, int memory, int d){ // 행, 열, 메모리 값, 방향(�
     
     
     
+    return true ; // 삭제
+    
     
 }
 
