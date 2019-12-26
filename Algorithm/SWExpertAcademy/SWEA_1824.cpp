@@ -1,6 +1,6 @@
 /*
  SW Expert Academy
- 1824. 혁진이의 프로그램 검증
+
  */
 #include <iostream>
 using namespace std;
@@ -53,7 +53,7 @@ bool dfs(int r, int c, int memory, int d){ // 행, 열, 메모리 값, 방향(�
 
 
 
-int main() {
+int SWEA_1824() {
     scanf("%d", &T);
     
     for(int t=1; t<=T; t++){
@@ -68,4 +68,5 @@ int main() {
         
         
     }
+    return 0;
 }

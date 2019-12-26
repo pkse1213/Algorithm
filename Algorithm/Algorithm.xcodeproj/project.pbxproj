@@ -10,6 +10,7 @@
 		CBEA5E8423B0F8BB00F01AF8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8323B0F8BB00F01AF8 /* main.cpp */; };
 		CBEA5E8E23B0F8F200F01AF8 /* SWEA_3974.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8C23B0F8F200F01AF8 /* SWEA_3974.cpp */; };
 		CBEA5E9123B2079900F01AF8 /* SWEA_1824.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8F23B2079900F01AF8 /* SWEA_1824.cpp */; };
+		CBEA5E9623B49D1200F01AF8 /* SWEA_1486.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E9523B49D1200F01AF8 /* SWEA_1486.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		CBEA5E8323B0F8BB00F01AF8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CBEA5E8C23B0F8F200F01AF8 /* SWEA_3974.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_3974.cpp; sourceTree = "<group>"; };
 		CBEA5E8F23B2079900F01AF8 /* SWEA_1824.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_1824.cpp; sourceTree = "<group>"; };
+		CBEA5E9523B49D1200F01AF8 /* SWEA_1486.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_1486.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				CBEA5E8C23B0F8F200F01AF8 /* SWEA_3974.cpp */,
 				CBEA5E8F23B2079900F01AF8 /* SWEA_1824.cpp */,
+				CBEA5E9523B49D1200F01AF8 /* SWEA_1486.cpp */,
 			);
 			path = SWExpertAcademy;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEA5E9623B49D1200F01AF8 /* SWEA_1486.cpp in Sources */,
 				CBEA5E8E23B0F8F200F01AF8 /* SWEA_3974.cpp in Sources */,
 				CBEA5E9123B2079900F01AF8 /* SWEA_1824.cpp in Sources */,
 				CBEA5E8423B0F8BB00F01AF8 /* main.cpp in Sources */,
