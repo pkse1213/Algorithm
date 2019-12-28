@@ -5,23 +5,26 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
+#include <stack>
+#include <queue>
 #include <math.h>
-#define MAX 13
+#define MAX 101
 using namespace std;
 
-int T;
-//여기부터
+struct node {
+    int r, c;
+    node();
+    node(int _r, int _c): r(_r), c(_c) {}
+};
+
+int map[MAX][MAX] ; // 0은 아무것도 없음, 1은 뱀, 2는 사과
+
+int dr[4] = {0, 1, 0, -1}; // 우, 하, 좌, 상
+int dc[4] = {1, 0, -1, 0};
 
 int main(int argc, char** argv)
 {
-    int test_case;
-    cin >> T;
     
-    for(test_case = 1; test_case <= T; ++test_case){
-        // 여기부터
-        
-        cout << "#" << test_case << " " << endl ;
-        
-    }
+    
     return 0;
 }
