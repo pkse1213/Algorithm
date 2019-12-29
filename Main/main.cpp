@@ -17,7 +17,7 @@ struct node {
     node(int _r, int _c): r(_r), c(_c) {}
 };
 
-int map[MAX][MAX] ; // 0은 아무것도 없음, 1은 뱀, 2는 사과
+int map[MAX][MAX] ; 
 
 int dr[4] = {0, 1, 0, -1}; // 우, 하, 좌, 상
 int dc[4] = {1, 0, -1, 0};
