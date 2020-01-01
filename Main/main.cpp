@@ -12,6 +12,11 @@
 #include <math.h>
 #define MAX 500
 using namespace std;
+struct node {
+    int r, c;
+    node();
+    node(int _r, int _c): r(_r), c(_c) {}
+};
 int map[MAX][MAX];
 
 int n, m;
