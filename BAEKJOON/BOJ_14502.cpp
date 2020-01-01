@@ -1,6 +1,12 @@
 /*
  BAEKJOON
  14502. 연구소
+
+ 실수
+ 110번째 줄에서 cnt--;를 해줘야 된다고 생각했다
+ 매개변수로 cnt+1을 던져주지만
+ 돌아왔을 때 cnt값은 그대로이기 때문에 안해줘도 된다
+ 
 */
 
 #include <iostream>
@@ -23,7 +29,6 @@ int dc[4] = {1, -1, 0, 0};
 int answer = 0;
 
 queue<node> virus;
-vector<node> blank;
 
 void input()
 {
@@ -33,7 +38,6 @@ void input()
         for(int j=0; j<m; j++)
         {
             cin >> origin_map[i][j];
-            if(origin_map[i][j] == 0) blank.push_back(node(i, j));
         }
     }
 }
@@ -88,29 +92,33 @@ void virus_spread()
 }
 
 // 벽 세우기
-void dfs_create(int cnt, int idx)
+void dfs_create(int cnt)
 {
-    if(idx == blank.size()) return;
-       
-    if(cnt > 3)
+    if(cnt == 3)
     {
         virus_spread();
         return;
     }
     
-    origin_map[blank[idx].r][blank[idx].c] = 1;
-    dfs_create(cnt+1, idx+1);
-    
-    origin_map[blank[idx].r][blank[idx].c] = 0;
-    dfs_create(cnt, idx+1);
-    
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<m; j++)
+        {
+            if(origin_map[i][j] == 0)
+            {
+                origin_map[i][j] = 1;
+                dfs_create(cnt+1);
+                origin_map[i][j] = 0;
+            }
+        }
+    }
 }
 
 
 int main(int argc, char** argv)
 {
     input();
-    dfs_create(1, 0);
+    dfs_create(0);
     cout << answer;
     return 0;
 }
