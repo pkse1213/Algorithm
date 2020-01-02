@@ -20,8 +20,8 @@ struct node {
 int map[MAX][MAX];
 
 int n, m;
-int dr[4] = {0, 0, 1, -1};
-int dc[4] = {1, -1, 0, 0};
+int dr[4] = {-1, 0, 1, 0}; // 북 동 남 서
+int dc[4] = {0, 1, 0, -1};
 int answer = 0;
 
 void input()
