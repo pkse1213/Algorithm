@@ -27,19 +27,31 @@ int answer = 0;
 void input()
 {
     cin >> n >> m;
-    for(int i=0; i<n; i++)
+    for(int i=1; i<=n; i++)
     {
-        for(int j=0; j<m; j++)
+        for(int j=1; j<=m; j++)
         {
             cin >> map[i][j];
         }
     }
 }
 
+
+
 int main(int argc, char** argv)
 {
-    input();
+    int test_case;
+    int T;
+    cin >> T;
     
-    cout << answer;
+    for(test_case = 1; test_case <= T; ++test_case)
+    {
+        input();
+
+
+
+        cout << "#" << test_case << " " << answer << endl;
+
+    }
     return 0;
 }
