@@ -7,7 +7,6 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <stack>
 #include <queue>
 #include <math.h>
 #define MAX 11
@@ -80,8 +79,11 @@ void draw()
     }
 }
 
-/* 처음 생각했던 것 -> 이건 나중에 map 초기화를 해줘야 해서 더 오래걸리고 조건이 복잡함
-void init_battery()
+/*
+ 처음 생각했던 구현
+ 배터리 위치에서 범위에 퍼트린다 (배터리 갯수만큼)
+ -> 이건 나중에 map 초기화를 해줘야 해서 더 오래걸리고 조건이 복잡함
+void set_battery()
 {
     for(int s=0; s<bc.size(); s++)
     {
@@ -114,7 +116,7 @@ void init_battery()
 }
 */
 
-void init_battery()
+void set_battery()
 {
     for(int i=1; i<=10; i++)
     {
@@ -205,7 +207,7 @@ int main(int argc, char** argv)
     {
         answer = 0;
         input();
-        init_battery();
+        set_battery();
         //draw();
         compute();
 
