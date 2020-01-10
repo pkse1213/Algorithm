@@ -1,6 +1,6 @@
 /*
  SW Expert Academy
-
+ 1824. 혁진이의 프로그램 검증
  */
 #include <iostream>
 using namespace std;
