@@ -10,12 +10,12 @@
 #include <stack>
 #include <queue>
 #include <math.h>
-#define MAX 500
+#define MAX 50
 using namespace std;
-struct node {
+struct Node {
     int r, c;
-    node();
-    node(int _r, int _c): r(_r), c(_c) {}
+    Node();
+    Node(int _r, int _c): r(_r), c(_c) {}
 };
 int map[MAX][MAX];
 
