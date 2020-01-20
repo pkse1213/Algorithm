@@ -14,7 +14,7 @@
 using namespace std;
 struct Node {
     int r, c;
-    Node();
+    Node() {}
     Node(int _r, int _c): r(_r), c(_c) {}
 };
 int map[MAX][MAX];
