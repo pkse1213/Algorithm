@@ -14,11 +14,12 @@
 		CB0B177223CDF2A4006AF1BB /* BOJ_16234.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB0B177123CDF2A4006AF1BB /* BOJ_16234.cpp */; };
 		CB19DC2623C0838000ED66FA /* SWEA_2477.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB19DC2523C0838000ED66FA /* SWEA_2477.cpp */; };
 		CB2D404723D544C800A67509 /* BOJ_5373.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D404623D544C800A67509 /* BOJ_5373.cpp */; };
-		CB2D404B23D599A300A67509 /* BOJ_17472.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D404A23D599A300A67509 /* BOJ_17472.cpp */; };
 		CB2F803123D45EF7009ADC71 /* BOJ_16236.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2F803023D45EF7009ADC71 /* BOJ_16236.cpp */; };
+		CB39A4F823D7D6AE00ABE97F /* BOJ_17472.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D404A23D599A300A67509 /* BOJ_17472.cpp */; };
 		CB6005D623B8EA5300D59FE6 /* BOJ_14499.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6005D523B8EA5300D59FE6 /* BOJ_14499.cpp */; };
 		CB6005D823B9DAF200D59FE6 /* BOJ_14500.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6005D723B9DAF200D59FE6 /* BOJ_14500.cpp */; };
 		CB6005DA23B9FF6E00D59FE6 /* BOJ_14501.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6005D923B9FF6E00D59FE6 /* BOJ_14501.cpp */; };
+		CB6E603923D981C600357DC5 /* BOJ_17142.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6E603823D981C600357DC5 /* BOJ_17142.cpp */; };
 		CB78422123BB6C9C00393474 /* BOJ_17144.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB78422023BB6C9C00393474 /* BOJ_17144.cpp */; };
 		CB78422323BBD83D00393474 /* BOJ_17143.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB78422223BBD83D00393474 /* BOJ_17143.cpp */; };
 		CB78422523BCC76B00393474 /* BOJ_14502.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB78422423BCC76B00393474 /* BOJ_14502.cpp */; };
@@ -73,6 +74,7 @@
 		CB6005D523B8EA5300D59FE6 /* BOJ_14499.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_14499.cpp; sourceTree = "<group>"; };
 		CB6005D723B9DAF200D59FE6 /* BOJ_14500.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_14500.cpp; sourceTree = "<group>"; };
 		CB6005D923B9FF6E00D59FE6 /* BOJ_14501.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_14501.cpp; sourceTree = "<group>"; };
+		CB6E603823D981C600357DC5 /* BOJ_17142.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17142.cpp; sourceTree = "<group>"; };
 		CB78422023BB6C9C00393474 /* BOJ_17144.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17144.cpp; sourceTree = "<group>"; };
 		CB78422223BBD83D00393474 /* BOJ_17143.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17143.cpp; sourceTree = "<group>"; };
 		CB78422423BCC76B00393474 /* BOJ_14502.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_14502.cpp; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				CB2F803023D45EF7009ADC71 /* BOJ_16236.cpp */,
 				CB2D404623D544C800A67509 /* BOJ_5373.cpp */,
 				CB2D404A23D599A300A67509 /* BOJ_17472.cpp */,
+				CB6E603823D981C600357DC5 /* BOJ_17142.cpp */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				CBEA5EA723B4D82C00F01AF8 /* SWEA_1204.cpp in Sources */,
 				CBEA5E9623B49D1200F01AF8 /* SWEA_1486.cpp in Sources */,
 				CB78422B23BE46B600393474 /* BOJ_15684.cpp in Sources */,
+				CB39A4F823D7D6AE00ABE97F /* BOJ_17472.cpp in Sources */,
 				CB78422923BDF9CA00393474 /* BOJ_15683.cpp in Sources */,
 				CB01665223CC4A310097F6F6 /* BOJ_15686.cpp in Sources */,
 				CB6005D623B8EA5300D59FE6 /* BOJ_14499.cpp in Sources */,
@@ -282,6 +286,7 @@
 				CB6005DA23B9FF6E00D59FE6 /* BOJ_14501.cpp in Sources */,
 				CBEA5EA423B4CF0700F01AF8 /* SWEA_1767.cpp in Sources */,
 				CBB77AFA23B6284900627736 /* BOJ_12100_1.cpp in Sources */,
+				CB6E603923D981C600357DC5 /* BOJ_17142.cpp in Sources */,
 				CB78422323BBD83D00393474 /* BOJ_17143.cpp in Sources */,
 				CBEA5E9123B2079900F01AF8 /* SWEA_1824.cpp in Sources */,
 				CB2F803123D45EF7009ADC71 /* BOJ_16236.cpp in Sources */,
@@ -296,7 +301,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB77B0423B7787400627736 /* main.cpp in Sources */,
-				CB2D404B23D599A300A67509 /* BOJ_17472.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -33,7 +33,6 @@ vector<Bridge> bridges;
 int n, m;
 int dr[4] = {-1, 0, 1, 0}; // 북 동 남 서
 int dc[4] = {0, 1, 0, -1};
-int answer = 0;
 int count_island = 0;
 
 bool asc(Bridge a, Bridge b)
@@ -111,20 +110,21 @@ void group_map()
 //    print();
 }
 
-int getParent(int a) {
+int get_parent(int a) {
     if (parent[a] == a) return a;
-    return parent[a] = getParent(parent[a]);
+    return parent[a] = get_parent(parent[a]);
 }
 
-void unionSet(int a, int b) {
-    int rootA = getParent(a);
-    int rootB = getParent(b);
+void set_union(int a, int b) {
+    int rootA = get_parent(a);
+    int rootB = get_parent(b);
     parent[rootA] = rootB;
 }
 
 // 크루스칼 알고리즘
 void kruskal()
 {
+    // 간선의 오름차순으로 정렬
     sort(bridges.begin(), bridges.end(), asc);
     
     //부모 배열 초기화(처음 부모는 자기 자신)
@@ -148,13 +148,13 @@ void kruskal()
         v = bridges[index].is2;
         
         index++;
-        if (getParent(u) == getParent(v)) {
+        if (get_parent(u) == get_parent(v)) {
             //이미 연결되어 있다.
             continue;
         }
         else {
             //연결되어 있지 않다면 합친다.
-            unionSet(u, v);
+            set_union(u, v);
             
             //연결된 간선의 수 증가
             cnt++;
@@ -163,7 +163,7 @@ void kruskal()
             sum += dist;
         }
     }
-    cout << sum;
+    cout << sum << endl;
 }
 
 // 다리 생성

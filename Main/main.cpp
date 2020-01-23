@@ -7,51 +7,53 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <stack>
 #include <queue>
 #include <math.h>
-#define MAX 50
+#include <cstring>
+#define MAP_MAX 51
 using namespace std;
+
 struct Node {
     int r, c;
     Node() {}
     Node(int _r, int _c): r(_r), c(_c) {}
 };
-int map[MAX][MAX];
-
-int n, m;
+int MAP[MAP_MAX][MAP_MAX];
+int N, M, answer = 0;
 int dr[4] = {-1, 0, 1, 0}; // 북 동 남 서
 int dc[4] = {0, 1, 0, -1};
-int answer = 0;
 
 void input()
 {
-    cin >> n >> m;
-    for(int i=1; i<=n; i++)
+    cin >> N >> M;
+    for(int i = 1; i <= N; i++)
     {
-        for(int j=1; j<=m; j++)
+        for(int j = 1; j <= M; j++)
         {
-            cin >> map[i][j];
+            cin >> MAP[i][j];
         }
     }
 }
 
+void print()
+{
+    for(int i = 1; i <= N; i++)
+    {
+        for(int j = 1; j <= M; j++)
+        {
+            cout << MAP[i][j] << "\t";
+        }
+        cout << endl;
+    }
+    cout << endl;
+}
 
 
 int main(int argc, char** argv)
 {
-    int test_case;
-    int T;
-    cin >> T;
+    input();
     
-    for(test_case = 1; test_case <= T; ++test_case)
-    {
-        input();
-
-
-
-        cout << "#" << test_case << " " << answer << endl;
-
-    }
+    cout << answer << endl;
+    
     return 0;
 }
