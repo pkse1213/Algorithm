@@ -2,7 +2,7 @@
  BAEKJOON
  SW Expert Academy
  
-*/
+ */
 
 #include <iostream>
 #include <algorithm>
@@ -48,7 +48,24 @@ void print()
     cout << endl;
 }
 
+/* SWEA
+int main(int argc, char** argv)
+{
+    int test_case;
+    int T;
+    cin >> T;
+    
+    for(test_case = 1; test_case <= T; ++test_case)
+    {
+        input();
+        cout << "#" << test_case << " " << answer << endl;
+    }
+    return 0;
+}
+ */
 
+
+/* BOJ
 int main(int argc, char** argv)
 {
     input();
@@ -57,3 +74,4 @@ int main(int argc, char** argv)
     
     return 0;
 }
+*/
