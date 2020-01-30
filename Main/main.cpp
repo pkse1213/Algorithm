@@ -18,10 +18,15 @@ struct Node {
     Node() {}
     Node(int _r, int _c): r(_r), c(_c) {}
 };
-int MAP[MAP_MAX][MAP_MAX];
-int N, M, answer = 0;
+int map[MAP_MAX][MAP_MAX];
+int N, M, answer;
 int dr[4] = {-1, 0, 1, 0}; // 북 동 남 서
 int dc[4] = {0, 1, 0, -1};
+
+void initialize()
+{
+    answer = 0;
+}
 
 void input()
 {
@@ -30,7 +35,7 @@ void input()
     {
         for(int j = 1; j <= M; j++)
         {
-            cin >> MAP[i][j];
+            cin >> map[i][j];
         }
     }
 }
@@ -41,11 +46,16 @@ void print()
     {
         for(int j = 1; j <= M; j++)
         {
-            cout << MAP[i][j] << "\t";
+            cout << map[i][j] << "\t";
         }
         cout << endl;
     }
     cout << endl;
+}
+
+void solve()
+{
+    
 }
 
 /* SWEA
@@ -57,7 +67,9 @@ int main(int argc, char** argv)
     
     for(test_case = 1; test_case <= T; ++test_case)
     {
+        initialize();
         input();
+        solve();
         cout << "#" << test_case << " " << answer << endl;
     }
     return 0;
@@ -68,8 +80,9 @@ int main(int argc, char** argv)
 /* BOJ
 int main(int argc, char** argv)
 {
+    initialize();
     input();
-    
+    solve();
     cout << answer << endl;
     
     return 0;
