@@ -19,8 +19,6 @@ struct Node {
 int map[MAP_MAX][MAP_MAX];
 int paper[6] = {0};
 int answer;
-int dr[3] = {1, 0, 1};
-int dc[3] = {0, 1, 1};
 vector<Node> one;
 
 void initialize()
