@@ -15,6 +15,8 @@
 		CB0E8EF123DFF30D0036589D /* SWEA_2105.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB0E8EF023DFF30D0036589D /* SWEA_2105.cpp */; };
 		CB19DC2623C0838000ED66FA /* SWEA_2477.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB19DC2523C0838000ED66FA /* SWEA_2477.cpp */; };
 		CB2AD63923E7F82300F66323 /* BOJ_17837.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2AD63823E7F82300F66323 /* BOJ_17837.cpp */; };
+		CB2CA9DB23E9462300C0C829 /* BOJ_17822_BF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2CA9DA23E9462300C0C829 /* BOJ_17822_BF.cpp */; };
+		CB2CA9DD23E9463700C0C829 /* BOJ_17822_BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2CA9DC23E9463700C0C829 /* BOJ_17822_BFS.cpp */; };
 		CB2D404723D544C800A67509 /* BOJ_5373.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D404623D544C800A67509 /* BOJ_5373.cpp */; };
 		CB2DFA4423E6BF0100358206 /* BOJ_17070.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2DFA4323E6BF0100358206 /* BOJ_17070.cpp */; };
 		CB2DFA4623E6F27200358206 /* BOJ_16637.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2DFA4523E6F27200358206 /* BOJ_16637.cpp */; };
@@ -86,6 +88,8 @@
 		CB0E8EF023DFF30D0036589D /* SWEA_2105.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_2105.cpp; sourceTree = "<group>"; };
 		CB19DC2523C0838000ED66FA /* SWEA_2477.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_2477.cpp; sourceTree = "<group>"; };
 		CB2AD63823E7F82300F66323 /* BOJ_17837.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17837.cpp; sourceTree = "<group>"; };
+		CB2CA9DA23E9462300C0C829 /* BOJ_17822_BF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17822_BF.cpp; sourceTree = "<group>"; };
+		CB2CA9DC23E9463700C0C829 /* BOJ_17822_BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17822_BFS.cpp; sourceTree = "<group>"; };
 		CB2D404623D544C800A67509 /* BOJ_5373.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_5373.cpp; sourceTree = "<group>"; };
 		CB2D404A23D599A300A67509 /* BOJ_17472.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17472.cpp; sourceTree = "<group>"; };
 		CB2DFA4323E6BF0100358206 /* BOJ_17070.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17070.cpp; sourceTree = "<group>"; };
@@ -230,6 +234,8 @@
 				CB2DFA4323E6BF0100358206 /* BOJ_17070.cpp */,
 				CB2DFA4523E6F27200358206 /* BOJ_16637.cpp */,
 				CB2AD63823E7F82300F66323 /* BOJ_17837.cpp */,
+				CB2CA9DA23E9462300C0C829 /* BOJ_17822_BF.cpp */,
+				CB2CA9DC23E9463700C0C829 /* BOJ_17822_BFS.cpp */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 				CB39A4F823D7D6AE00ABE97F /* BOJ_17472.cpp in Sources */,
 				CB2DFA4623E6F27200358206 /* BOJ_16637.cpp in Sources */,
 				CB3278AF23E41E87002233B4 /* BOJ_17779.cpp in Sources */,
+				CB2CA9DD23E9463700C0C829 /* BOJ_17822_BFS.cpp in Sources */,
 				CB78422923BDF9CA00393474 /* BOJ_15683.cpp in Sources */,
 				CB3D68F723DC60270000AA4D /* SWEA_2117.cpp in Sources */,
 				CB5C0E1D23E296B700134C1A /* SWEA_1949.cpp in Sources */,
@@ -341,6 +348,7 @@
 				CB78422123BB6C9C00393474 /* BOJ_17144.cpp in Sources */,
 				CB01664723C58D1F0097F6F6 /* SWEA_5644.cpp in Sources */,
 				CB64D20223E576E4006A6BFA /* BOJ_17136.cpp in Sources */,
+				CB2CA9DB23E9462300C0C829 /* BOJ_17822_BF.cpp in Sources */,
 				CB19DC2623C0838000ED66FA /* SWEA_2477.cpp in Sources */,
 				CBEA5E8E23B0F8F200F01AF8 /* SWEA_3074.cpp in Sources */,
 				CB6005D823B9DAF200D59FE6 /* BOJ_14500.cpp in Sources */,
