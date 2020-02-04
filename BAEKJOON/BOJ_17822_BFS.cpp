@@ -48,7 +48,7 @@ int visited[MAX][MAX] = { false };
 int dr[4] = {0 , 0, 1, -1};
 int dc[4] = {1 , -1, 0, 0};
 vector<Rotate> v;
-
+queue<Node> q;
 void input()
 {
     cin >> N >> M >> T;
@@ -108,7 +108,6 @@ void rotate_circle(int circle, int k, int d)
  
  => 상, 하, 좌, 우 체크. But, 1번 째 원판은 2번째 원판만, 마지막 원판은 N-1원판만 인접
 */
-queue<Node> q;
 bool BFS(int r, int c)
 {
     bool flag = false;
