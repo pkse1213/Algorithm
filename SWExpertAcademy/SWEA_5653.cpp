@@ -8,6 +8,8 @@
  [조건] 줄기 세포의 크기에 비해 배양 용기의 크기가 매우 크기 때문에 시뮬레이션에서 배양 용기의 크기는 무한하다고 가정한다.
  범위를 최악의 조건을 생각해서 정한 후 값을 입력받음
  
+ vector<Cell> C_MAP[MAX][MAX]가 여기선 되는데 채점 서버에서는 안된다.. 왤까..? 그래서 다시풀었다. ㅎ
+ 
  */
 #include <iostream>
 #include <vector>
@@ -27,6 +29,7 @@ struct Cell
 int T, N, M, K, Answer;
 vector<Cell> Cells;
 int MAP[MAX][MAX];
+int C_MAP[MAX][MAX];
 int dr[4] = { 0, 0, -1, 1 };
 int dc[4] = { 1, -1, 0, 0 };
 
@@ -58,20 +61,6 @@ void Input()
     }
 }
 
-void Print()
-{
-    cout << endl << "############################################################" << endl;
-    for(int r = 0; r < MAX; r++)
-    {
-        for(int c = 0; c < MAX; c++)
-        {
-            if(MAP[r][c] == -1) cout << '.';
-            else cout << MAP[r][c];
-        }
-        cout << endl;
-    }
-}
-
 void ChangeState(int idx)
 {
     Cells[idx].hour++;
@@ -97,7 +86,7 @@ void ChangeState(int idx)
         }
     }
 }
-int C_MAP[MAX][MAX];
+
 void Start()
 {
     for(int t = 1; t <= K; t++)
