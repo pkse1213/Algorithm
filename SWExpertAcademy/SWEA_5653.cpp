@@ -1,5 +1,5 @@
 /*
- SW Expert Academy
+ https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo
  5653. [모의 SW 역량테스트] 줄기세포배양
  
  시뮬레이션

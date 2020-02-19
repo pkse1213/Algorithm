@@ -1,4 +1,5 @@
 /*
+ https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo
  5650. [모의 SW 역량테스트] 핀볼 게임
  
  1시간 30분 소요
