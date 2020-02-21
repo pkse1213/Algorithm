@@ -27,6 +27,7 @@
 		CB3278AF23E41E87002233B4 /* BOJ_17779.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB3278AE23E41E87002233B4 /* BOJ_17779.cpp */; };
 		CB37D25523FCE0750093CDE6 /* SWEA_4014.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB37D25423FCE0750093CDE6 /* SWEA_4014.cpp */; };
 		CB37D25723FE53110093CDE6 /* SWEA_4008.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB37D25623FE53110093CDE6 /* SWEA_4008.cpp */; };
+		CB37D25923FFB3EB0093CDE6 /* SWEA_5648.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB37D25823FFB3EB0093CDE6 /* SWEA_5648.cpp */; };
 		CB39A4F823D7D6AE00ABE97F /* BOJ_17472.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D404A23D599A300A67509 /* BOJ_17472.cpp */; };
 		CB3D68F323DC3FBC0000AA4D /* SWEA_2382_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB3D68F223DC3FBC0000AA4D /* SWEA_2382_1.cpp */; };
 		CB3D68F523DC41040000AA4D /* SWEA_2382_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB3D68F423DC41040000AA4D /* SWEA_2382_2.cpp */; };
@@ -116,6 +117,7 @@
 		CB3278AE23E41E87002233B4 /* BOJ_17779.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17779.cpp; sourceTree = "<group>"; };
 		CB37D25423FCE0750093CDE6 /* SWEA_4014.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_4014.cpp; sourceTree = "<group>"; };
 		CB37D25623FE53110093CDE6 /* SWEA_4008.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_4008.cpp; sourceTree = "<group>"; };
+		CB37D25823FFB3EB0093CDE6 /* SWEA_5648.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_5648.cpp; sourceTree = "<group>"; };
 		CB3D68F223DC3FBC0000AA4D /* SWEA_2382_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_2382_1.cpp; sourceTree = "<group>"; };
 		CB3D68F423DC41040000AA4D /* SWEA_2382_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_2382_2.cpp; sourceTree = "<group>"; };
 		CB3D68F623DC60270000AA4D /* SWEA_2117.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_2117.cpp; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				CBA0296623FBCE1100C467F9 /* SWEA_5650.cpp */,
 				CB37D25423FCE0750093CDE6 /* SWEA_4014.cpp */,
 				CB37D25623FE53110093CDE6 /* SWEA_4008.cpp */,
+				CB37D25823FFB3EB0093CDE6 /* SWEA_5648.cpp */,
 			);
 			path = SWExpertAcademy;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				CB01664923C626000097F6F6 /* SWEA_5658.cpp in Sources */,
 				CB01664B23C8A25D0097F6F6 /* BOJ_15685.cpp in Sources */,
 				CB5C0E1A23E1993100134C1A /* SWEA_1953.cpp in Sources */,
+				CB37D25923FFB3EB0093CDE6 /* SWEA_5648.cpp in Sources */,
 				CB431ACB23F1233200EDB896 /* BOJ_12100.cpp in Sources */,
 				CB2AD63923E7F82300F66323 /* BOJ_17837.cpp in Sources */,
 				CBB77B0823B77B3A00627736 /* BOJ_13458.cpp in Sources */,
