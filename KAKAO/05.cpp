@@ -1,3 +1,6 @@
+/*
+ 이분탐색
+ */
 #include <iostream>
 #include <string>
 #include <vector>
