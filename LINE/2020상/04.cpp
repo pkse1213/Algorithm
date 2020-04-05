@@ -1,3 +1,9 @@
+/*
+ 벡터 중복 제거
+ sort(transactions.begin(), transactions.end());
+ transactions.erase(unique(transactions.begin(),transactions.end()),transactions.end());
+ 
+ */
 #include <iostream>
 #include <vector>
 #include <map>

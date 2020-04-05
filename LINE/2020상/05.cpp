@@ -1,10 +1,22 @@
+/*
+ 우선순위 큐 임의의 정렬
+ 
+ struct compare{
+     bool operator()(pair<int, string> A, pair<int, string> B)
+     {
+         if(A.first == B.first) return A.second > B.second;
+         else return A.first < B.first;
+     }
+ };
+     
+ priority_queue<pair<int, string>, vector<pair<int, string>>, compare> pq;
+ 
+ */
 #include <iostream>
 #include <string>
 #include <vector>
 #include <queue>
-
 using namespace std;
-
 
 struct compare{
     bool operator()(pair<int, string> A, pair<int, string> B)
@@ -44,17 +56,19 @@ vector<string> solution(vector<vector<string>> dataSource, vector<string> tags) 
 int main()
 {
     vector<string> result = solution({{"doc1", "t1", "t2", "t3"},
-        {"doc2", "t0", "t2", "t3"},{"doc8", "t0", "t2", "t3"},{"Doc2", "t0", "t2", "t3"},{"coc2", "t0", "t2", "t3"},{"bc2", "t0", "t2", "t3"},
-        {"doc3", "t1", "t6", "t7"},
-        {"doc4", "t1", "t2", "t4"},
-        {"doc5", "t6", "t100", "t8"}
-    }, {"t1", "t2", "t3"});
-    
+                                    {"doc2", "t0", "t2", "t3"},
+                                    {"doc8", "t0", "t2", "t3"},
+                                    {"Doc2", "t0", "t2", "t3"},
+                                    {"coc2", "t0", "t2", "t3"},
+                                    {"bc2", "t0", "t2", "t3"},
+                                    {"doc3", "t1", "t6", "t7"},
+                                    {"doc4", "t1", "t2", "t4"},
+                                    {"doc5", "t6", "t100", "t8"}}, {"t1", "t2", "t3"});
     
     for(int i = 0; i < result.size(); i++)
     {
         cout << result[i] << ' ';
     }
+    
     return 0;
 }
-
