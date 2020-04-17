@@ -105,6 +105,7 @@
 		CBB85461242E23AB003DDC80 /* BOJ_3980.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBB85460242E23AB003DDC80 /* BOJ_3980.cpp */; };
 		CBC2985A240FB2EA0073C7DA /* BOJ_17838_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBC29859240FB2EA0073C7DA /* BOJ_17838_RE.cpp */; };
 		CBCBF49D2448535000061A7A /* BOJ_2206.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBCBF49C2448535000061A7A /* BOJ_2206.cpp */; };
+		CBCBF49F2449A66B00061A7A /* BOJ_1018.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBCBF49E2449A66B00061A7A /* BOJ_1018.cpp */; };
 		CBCC372123DD8C7D00681D02 /* SWEA_2115.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBCC372023DD8C7D00681D02 /* SWEA_2115.cpp */; };
 		CBD485A32430C4B100F74820 /* BOJ_1005.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD485A22430C4B100F74820 /* BOJ_1005.cpp */; };
 		CBE1CE2E23C4B557009B5EBB /* SWEA_4012.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBE1CE2D23C4B557009B5EBB /* SWEA_4012.cpp */; };
@@ -238,6 +239,7 @@
 		CBB85460242E23AB003DDC80 /* BOJ_3980.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_3980.cpp; sourceTree = "<group>"; };
 		CBC29859240FB2EA0073C7DA /* BOJ_17838_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17838_RE.cpp; sourceTree = "<group>"; };
 		CBCBF49C2448535000061A7A /* BOJ_2206.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_2206.cpp; sourceTree = "<group>"; };
+		CBCBF49E2449A66B00061A7A /* BOJ_1018.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1018.cpp; sourceTree = "<group>"; };
 		CBCC372023DD8C7D00681D02 /* SWEA_2115.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_2115.cpp; sourceTree = "<group>"; };
 		CBD485A22430C4B100F74820 /* BOJ_1005.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1005.cpp; sourceTree = "<group>"; };
 		CBE1CE2D23C4B557009B5EBB /* SWEA_4012.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_4012.cpp; sourceTree = "<group>"; };
@@ -461,6 +463,7 @@
 				CB7256DD243C838200F862FD /* BOJ_5719.cpp */,
 				CB1852B8243F68F800B3A346 /* BOJ_1261.cpp */,
 				CBCBF49C2448535000061A7A /* BOJ_2206.cpp */,
+				CBCBF49E2449A66B00061A7A /* BOJ_1018.cpp */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -627,6 +630,7 @@
 				CBEA5E8E23B0F8F200F01AF8 /* SWEA_3074.cpp in Sources */,
 				CB6005D823B9DAF200D59FE6 /* BOJ_14500.cpp in Sources */,
 				CB870C58243B737500F48C94 /* BOJ_1017.cpp in Sources */,
+				CBCBF49F2449A66B00061A7A /* BOJ_1018.cpp in Sources */,
 				CBFB7EE42416164E00873981 /* SWEA_4796.cpp in Sources */,
 				CB6005DA23B9FF6E00D59FE6 /* BOJ_14501.cpp in Sources */,
 				CBEA5EA423B4CF0700F01AF8 /* SWEA_1767.cpp in Sources */,
