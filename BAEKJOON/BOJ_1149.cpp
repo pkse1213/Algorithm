@@ -1,3 +1,6 @@
+/*
+ 1149. RGB거리
+ */
 #include <iostream>
 #include <algorithm>
 #define MAX 1005
