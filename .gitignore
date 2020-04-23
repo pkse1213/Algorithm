@@ -67,7 +67,8 @@ DerivedData/
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
-
+*.xcodeproj
+*.idea
 ### Xcode Patch ###
 **/xcshareddata/WorkspaceSettings.xcsettings
 
