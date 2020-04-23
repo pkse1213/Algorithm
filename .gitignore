@@ -62,13 +62,17 @@ DerivedData/
 !default.perspectivev3
 
 ## Xcode Patch
+/.idea
+.idea
+/Algorithm.xcodeproj
+Algorithm.xcodeproj
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
-*.xcodeproj
-*.idea
+
+
 ### Xcode Patch ###
 **/xcshareddata/WorkspaceSettings.xcsettings
 

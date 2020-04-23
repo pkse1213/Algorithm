@@ -64,6 +64,7 @@
 		CB64D20223E576E4006A6BFA /* BOJ_17136.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB64D20123E576E4006A6BFA /* BOJ_17136.cpp */; };
 		CB6E603923D981C600357DC5 /* BOJ_17142.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6E603823D981C600357DC5 /* BOJ_17142.cpp */; };
 		CB6E89B22451683A003B39F6 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6E89B12451683A003B39F6 /* MergeSort.cpp */; };
+		CB6E89B424519931003B39F6 /* PrimAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6E89B324519931003B39F6 /* PrimAlgorithm.cpp */; };
 		CB7256DC243C4FA800F862FD /* DijkstraAgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7256DB243C4FA800F862FD /* DijkstraAgorithm.cpp */; };
 		CB7256DE243C838200F862FD /* BOJ_5719.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7256DD243C838200F862FD /* BOJ_5719.cpp */; };
 		CB78422123BB6C9C00393474 /* BOJ_17144.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB78422023BB6C9C00393474 /* BOJ_17144.cpp */; };
@@ -217,6 +218,7 @@
 		CB64D20123E576E4006A6BFA /* BOJ_17136.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17136.cpp; sourceTree = "<group>"; };
 		CB6E603823D981C600357DC5 /* BOJ_17142.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17142.cpp; sourceTree = "<group>"; };
 		CB6E89B12451683A003B39F6 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		CB6E89B324519931003B39F6 /* PrimAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrimAlgorithm.cpp; sourceTree = "<group>"; };
 		CB7256DB243C4FA800F862FD /* DijkstraAgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DijkstraAgorithm.cpp; sourceTree = "<group>"; };
 		CB7256DD243C838200F862FD /* BOJ_5719.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_5719.cpp; sourceTree = "<group>"; };
 		CB78422023BB6C9C00393474 /* BOJ_17144.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17144.cpp; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				CB7256DB243C4FA800F862FD /* DijkstraAgorithm.cpp */,
+				CB6E89B324519931003B39F6 /* PrimAlgorithm.cpp */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -667,6 +670,7 @@
 				CBA0296323F95D2A00C467F9 /* SWEA_5653.cpp in Sources */,
 				CB9CFD262403B065007763DB /* BOJ_3190_RE.cpp in Sources */,
 				CB5C0E1F23E2A90300134C1A /* SWEA_1952.cpp in Sources */,
+				CB6E89B424519931003B39F6 /* PrimAlgorithm.cpp in Sources */,
 				CB2A5670244C3E2800D9D96D /* BOJ_1912_1.cpp in Sources */,
 				CB2D404723D544C800A67509 /* BOJ_5373.cpp in Sources */,
 				CB636D4824095C5F00A7349F /* BOJ_13460_RE.cpp in Sources */,
