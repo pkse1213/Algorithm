@@ -68,6 +68,7 @@
 		CB6E89B62451C184003B39F6 /* BOJ_15688.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6E89B52451C184003B39F6 /* BOJ_15688.cpp */; };
 		CB6E89B82451C1DE003B39F6 /* CountingSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6E89B72451C1DE003B39F6 /* CountingSort.cpp */; };
 		CB6E89BA2451D176003B39F6 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6E89B92451D176003B39F6 /* BubbleSort.cpp */; };
+		CB6E89BC2451D5C1003B39F6 /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6E89BB2451D5C1003B39F6 /* SelectionSort.cpp */; };
 		CB7256DC243C4FA800F862FD /* DijkstraAgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7256DB243C4FA800F862FD /* DijkstraAgorithm.cpp */; };
 		CB7256DE243C838200F862FD /* BOJ_5719.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7256DD243C838200F862FD /* BOJ_5719.cpp */; };
 		CB78422123BB6C9C00393474 /* BOJ_17144.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB78422023BB6C9C00393474 /* BOJ_17144.cpp */; };
@@ -225,6 +226,7 @@
 		CB6E89B52451C184003B39F6 /* BOJ_15688.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_15688.cpp; sourceTree = "<group>"; };
 		CB6E89B72451C1DE003B39F6 /* CountingSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort.cpp; sourceTree = "<group>"; };
 		CB6E89B92451D176003B39F6 /* BubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
+		CB6E89BB2451D5C1003B39F6 /* SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
 		CB7256DB243C4FA800F862FD /* DijkstraAgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DijkstraAgorithm.cpp; sourceTree = "<group>"; };
 		CB7256DD243C838200F862FD /* BOJ_5719.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_5719.cpp; sourceTree = "<group>"; };
 		CB78422023BB6C9C00393474 /* BOJ_17144.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17144.cpp; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 				CB6E89B12451683A003B39F6 /* MergeSort.cpp */,
 				CB6E89B72451C1DE003B39F6 /* CountingSort.cpp */,
 				CB6E89B92451D176003B39F6 /* BubbleSort.cpp */,
+				CB6E89BB2451D5C1003B39F6 /* SelectionSort.cpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -731,6 +734,7 @@
 				CB3084E323F392B3009116CD /* BOJ_14499_RE.cpp in Sources */,
 				CB6E603923D981C600357DC5 /* BOJ_17142.cpp in Sources */,
 				CB50BDFD23F65BE5000FE486 /* BOJ_17281.cpp in Sources */,
+				CB6E89BC2451D5C1003B39F6 /* SelectionSort.cpp in Sources */,
 				CBAE5E82240E3A8600F723DD /* BOJ_15684_RE.cpp in Sources */,
 				CB78422323BBD83D00393474 /* BOJ_17143.cpp in Sources */,
 				CBAE499F244D608000C90294 /* BOJ_2293.cpp in Sources */,
