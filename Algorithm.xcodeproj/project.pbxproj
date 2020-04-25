@@ -130,12 +130,12 @@
 		CBD485A32430C4B100F74820 /* BOJ_1005.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD485A22430C4B100F74820 /* BOJ_1005.cpp */; };
 		CBD786622453F7BD0074470B /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD786612453F7BD0074470B /* 02.cpp */; };
 		CBD786642453F7C80074470B /* 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD786632453F7C80074470B /* 03.cpp */; };
-		CBD78679245406960074470B /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD78678245406960074470B /* 01.cpp */; };
-		CBD7867B24541A490074470B /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD7867A24541A490074470B /* 02.cpp */; };
 		CBD7867D245422100074470B /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD7867C245422100074470B /* 01.cpp */; };
 		CBD7867F2454223C0074470B /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD7867E2454223C0074470B /* 02.cpp */; };
 		CBD78681245422560074470B /* 04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD78680245422560074470B /* 04.cpp */; };
 		CBD786832454226D0074470B /* 05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD786822454226D0074470B /* 05.cpp */; };
+		CBD786862454231E0074470B /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD786852454231E0074470B /* 01.cpp */; };
+		CBD786882454232F0074470B /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD786872454232F0074470B /* 02.cpp */; };
 		CBE1CE2E23C4B557009B5EBB /* SWEA_4012.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBE1CE2D23C4B557009B5EBB /* SWEA_4012.cpp */; };
 		CBE5721323E5A70A00794A01 /* BOJ_17471.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBE5721223E5A70A00794A01 /* BOJ_17471.cpp */; };
 		CBEA5E8E23B0F8F200F01AF8 /* SWEA_3074.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8C23B0F8F200F01AF8 /* SWEA_3074.cpp */; };
@@ -292,12 +292,12 @@
 		CBD485A22430C4B100F74820 /* BOJ_1005.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1005.cpp; sourceTree = "<group>"; };
 		CBD786612453F7BD0074470B /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CBD786632453F7C80074470B /* 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03.cpp; sourceTree = "<group>"; };
-		CBD78678245406960074470B /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 01.cpp; path = ../../../Documents/01.cpp; sourceTree = "<group>"; };
-		CBD7867A24541A490074470B /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 02.cpp; path = ../../../Documents/02.cpp; sourceTree = "<group>"; };
 		CBD7867C245422100074470B /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CBD7867E2454223C0074470B /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CBD78680245422560074470B /* 04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 04.cpp; sourceTree = "<group>"; };
 		CBD786822454226D0074470B /* 05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 05.cpp; sourceTree = "<group>"; };
+		CBD786852454231E0074470B /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
+		CBD786872454232F0074470B /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CBE1CE2D23C4B557009B5EBB /* SWEA_4012.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_4012.cpp; sourceTree = "<group>"; };
 		CBE5721223E5A70A00794A01 /* BOJ_17471.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17471.cpp; sourceTree = "<group>"; };
 		CBEA5E8023B0F8BB00F01AF8 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -402,7 +402,7 @@
 		CBD7866C245406290074470B /* KAKAO */ = {
 			isa = PBXGroup;
 			children = (
-				CBD78677245406810074470B /* 2018카코페예선 */,
+				CBD78684245423110074470B /* 2018예선 */,
 				CBD7866D245406300074470B /* 2020모의 */,
 			);
 			path = KAKAO;
@@ -420,14 +420,14 @@
 			path = "2020모의";
 			sourceTree = "<group>";
 		};
-		CBD78677245406810074470B /* 2018카코페예선 */ = {
+		CBD78684245423110074470B /* 2018예선 */ = {
 			isa = PBXGroup;
 			children = (
-				CBD78678245406960074470B /* 01.cpp */,
-				CBD7867A24541A490074470B /* 02.cpp */,
+				CBD786852454231E0074470B /* 01.cpp */,
+				CBD786872454232F0074470B /* 02.cpp */,
 			);
-			name = "2018카코페예선";
-			path = "2018카코페예선";
+			name = "2018예선";
+			path = "2018예선";
 			sourceTree = "<group>";
 		};
 		CBEA5E7723B0F8BB00F01AF8 = {
@@ -691,7 +691,7 @@
 				CBA79FBE243603320086DCFC /* BOJ_10026.cpp in Sources */,
 				CB2E63CB23F83530006B02BC /* BOJ_2933.cpp in Sources */,
 				CBD485A32430C4B100F74820 /* BOJ_1005.cpp in Sources */,
-				CBD78679245406960074470B /* 01.cpp in Sources */,
+				CBD786862454231E0074470B /* 01.cpp in Sources */,
 				CBAE5E80240E067700F723DD /* BOJ_14503_RE.cpp in Sources */,
 				CB39A4F823D7D6AE00ABE97F /* BOJ_17472.cpp in Sources */,
 				CB7B600C2439630C007FE2DF /* 01.cpp in Sources */,
@@ -758,7 +758,7 @@
 				CB9000E12434598000822BE8 /* 01.cpp in Sources */,
 				CB3187BE2450884E00C87074 /* BOJ_7579.cpp in Sources */,
 				CBE5721323E5A70A00794A01 /* BOJ_17471.cpp in Sources */,
-				CBD7867B24541A490074470B /* 02.cpp in Sources */,
+				CBD786882454232F0074470B /* 02.cpp in Sources */,
 				CBB85461242E23AB003DDC80 /* BOJ_3980.cpp in Sources */,
 				CB78422123BB6C9C00393474 /* BOJ_17144.cpp in Sources */,
 				CBD786642453F7C80074470B /* 03.cpp in Sources */,
