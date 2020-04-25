@@ -351,10 +351,8 @@
 		CB7B5FFE243765E1007FE2DF /* KAKAO */ = {
 			isa = PBXGroup;
 			children = (
-				CB7B5FFF24376616007FE2DF /* 01.cpp */,
-				CB7B600124377A92007FE2DF /* 02.cpp */,
-				CB7B600724389896007FE2DF /* 04.cpp */,
-				CB7B600324383600007FE2DF /* 05.cpp */,
+				CBD78666245401C10074470B /* 2018카코페예선 */,
+				CBD78665245401AE0074470B /* 2020카카오모의 */,
 			);
 			path = KAKAO;
 			sourceTree = "<group>";
@@ -404,6 +402,26 @@
 				CBD786632453F7C80074470B /* 03.cpp */,
 			);
 			path = Hyundai;
+			sourceTree = "<group>";
+		};
+		CBD78665245401AE0074470B /* 2020카카오모의 */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B5FFF24376616007FE2DF /* 01.cpp */,
+				CB7B600124377A92007FE2DF /* 02.cpp */,
+				CB7B600724389896007FE2DF /* 04.cpp */,
+				CB7B600324383600007FE2DF /* 05.cpp */,
+			);
+			name = "2020카카오모의";
+			path = "2020카카오모의";
+			sourceTree = "<group>";
+		};
+		CBD78666245401C10074470B /* 2018카코페예선 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "2018카코페예선";
+			path = "2018카코페예선";
 			sourceTree = "<group>";
 		};
 		CBEA5E7723B0F8BB00F01AF8 = {
