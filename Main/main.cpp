@@ -4,6 +4,8 @@
 #include <queue>
 #include <deque>
 #include <vector>
+#include <stack>
+#include <map>
 #include <math.h>
 #define MAX 1005
 #define INF 987654321
