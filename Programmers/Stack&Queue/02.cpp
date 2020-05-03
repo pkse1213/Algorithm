@@ -1,45 +1,52 @@
+/*
+ 큐. 다리를 지나는 트럭
+
+ */
 #include <string>
 #include <vector>
 #include <queue>
 using namespace std;
 
-int solution(int bridge_length, int weight, vector<int> truck_weights)
-{
-    queue<int> q;
-    queue<int> t;
+
+int solution(int bridge_length, int weight, vector<int> truck_weights) {
+    queue<pii> q; // {들어온 시간, 무게}
     int time = 0;
-    int sum = 0;
-    int truckIdx = 0;
+    int idx = 0;
+    int sum_weight = 0;
     
-    while(1)
+    while (1)
     {
         time++;
-        
-        // 현재시간 - 트럭 삽입 시간 = 다리길이  -> 트럭 도착
-        if(time - t.front() == bridge_length)
+        if(!q.empty() && q.front().first + bridge_length == time)
         {
-            sum -= q.front();
+            sum_weight -= q.front().second;
             q.pop();
-            t.pop();
         }
         
-        // 트럭의 무게가 다리의 무게보다 작으면, 트럭을 삽입
-        if(sum + truck_weights[truckIdx] <= weight)
+        if(sum_weight + truck_weights[idx] <= weight)
         {
-            // 마지막 트럭이 삽입되면 종료
-            if(truckIdx == truck_weights.size()-1)
+            sum_weight += truck_weights[idx];
+            q.push({time, truck_weights[idx]});
+            idx++;
+            
+            if(idx == truck_weights.size())
             {
-                // 마지막 트럭 도착시간 추가
                 time += bridge_length;
                 break;
             }
-            
-            q.push(truck_weights[truckIdx]);
-            t.push(time); // 트럭이 삽입되는 시간 삽입
-            sum += truck_weights[truckIdx];
-            truckIdx++;
         }
+        
     }
-    
     return time;
+}
+
+
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+   
+    cout << solution(2, 10, {7,4,5,6});
+    
+    return 0;
 }
