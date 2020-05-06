@@ -29,6 +29,8 @@ string solution(int n, int t, int m, vector<string> timetable) {
     for(int i = 0; i < timetable.size(); i++)
     {
         int time = time_table[i];
+        
+        // 몇회차 타는지
         int idx = 0;
         if(time > 0)
         {

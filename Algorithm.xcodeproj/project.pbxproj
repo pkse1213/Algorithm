@@ -63,6 +63,8 @@
 		CB6005DA23B9FF6E00D59FE6 /* BOJ_14501.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6005D923B9FF6E00D59FE6 /* BOJ_14501.cpp */; };
 		CB6250442462E91100B8F83C /* SWEA_2382_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6250432462E91100B8F83C /* SWEA_2382_RE.cpp */; };
 		CB625047246300B100B8F83C /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB625046246300B100B8F83C /* 02.cpp */; };
+		CB62504A246318BD00B8F83C /* Trie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB625049246318BD00B8F83C /* Trie.cpp */; };
+		CB62504D246321E900B8F83C /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB62504C246321E900B8F83C /* 01.cpp */; };
 		CB636D4824095C5F00A7349F /* BOJ_13460_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB636D4724095C5F00A7349F /* BOJ_13460_RE.cpp */; };
 		CB64D20223E576E4006A6BFA /* BOJ_17136.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB64D20123E576E4006A6BFA /* BOJ_17136.cpp */; };
 		CB6A3D602455528E008EB695 /* 04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6A3D5F2455528E008EB695 /* 04.cpp */; };
@@ -236,6 +238,8 @@
 		CB6005D923B9FF6E00D59FE6 /* BOJ_14501.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_14501.cpp; sourceTree = "<group>"; };
 		CB6250432462E91100B8F83C /* SWEA_2382_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_2382_RE.cpp; sourceTree = "<group>"; };
 		CB625046246300B100B8F83C /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
+		CB625049246318BD00B8F83C /* Trie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trie.cpp; sourceTree = "<group>"; };
+		CB62504C246321E900B8F83C /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CB636D4724095C5F00A7349F /* BOJ_13460_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_13460_RE.cpp; sourceTree = "<group>"; };
 		CB64D20123E576E4006A6BFA /* BOJ_17136.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17136.cpp; sourceTree = "<group>"; };
 		CB6A3D5F2455528E008EB695 /* 04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 04.cpp; sourceTree = "<group>"; };
@@ -360,6 +364,23 @@
 			path = "2018블라인드";
 			sourceTree = "<group>";
 		};
+		CB625048246318AB00B8F83C /* ForTest */ = {
+			isa = PBXGroup;
+			children = (
+				CB625049246318BD00B8F83C /* Trie.cpp */,
+			);
+			path = ForTest;
+			sourceTree = "<group>";
+		};
+		CB62504B246321DD00B8F83C /* 2020블라인드 */ = {
+			isa = PBXGroup;
+			children = (
+				CB62504C246321E900B8F83C /* 01.cpp */,
+			);
+			name = "2020블라인드";
+			path = "2020블라인드";
+			sourceTree = "<group>";
+		};
 		CB6E89B024516821003B39F6 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
@@ -440,6 +461,7 @@
 		CBD7866C245406290074470B /* KAKAO */ = {
 			isa = PBXGroup;
 			children = (
+				CB62504B246321DD00B8F83C /* 2020블라인드 */,
 				CB625045246300A100B8F83C /* 2018블라인드 */,
 				CBD78684245423110074470B /* 2018예선 */,
 				CBD7866D245406300074470B /* 2020모의 */,
@@ -493,6 +515,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEA5E9C23B4C21E00F01AF8 /* Main */,
+				CB625048246318AB00B8F83C /* ForTest */,
 				CBEA5E8A23B0F8C100F01AF8 /* SWExpertAcademy */,
 				CBD7868924546C020074470B /* Programmers */,
 				CBEA5EA823B4D8E700F01AF8 /* BAEKJOON */,
@@ -726,6 +749,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB62504D246321E900B8F83C /* 01.cpp in Sources */,
 				CB4149F423F0171A007A5CA1 /* BOJ_15644.cpp in Sources */,
 				CB0B177223CDF2A4006AF1BB /* BOJ_16234.cpp in Sources */,
 				CB2A9A5F240645A400D75FE3 /* BOJ_16235.cpp in Sources */,
@@ -756,6 +780,7 @@
 				CB2E63CB23F83530006B02BC /* BOJ_2933.cpp in Sources */,
 				CBD485A32430C4B100F74820 /* BOJ_1005.cpp in Sources */,
 				CBD786862454231E0074470B /* 01.cpp in Sources */,
+				CB62504A246318BD00B8F83C /* Trie.cpp in Sources */,
 				CBAE5E80240E067700F723DD /* BOJ_14503_RE.cpp in Sources */,
 				CB39A4F823D7D6AE00ABE97F /* BOJ_17472.cpp in Sources */,
 				CB7B600C2439630C007FE2DF /* 01.cpp in Sources */,
