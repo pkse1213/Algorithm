@@ -65,6 +65,7 @@
 		CB625047246300B100B8F83C /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB625046246300B100B8F83C /* 02.cpp */; };
 		CB62504A246318BD00B8F83C /* Trie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB625049246318BD00B8F83C /* Trie.cpp */; };
 		CB62504D246321E900B8F83C /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB62504C246321E900B8F83C /* 01.cpp */; };
+		CB62504F24632EBC00B8F83C /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB62504E24632EBC00B8F83C /* 02.cpp */; };
 		CB636D4824095C5F00A7349F /* BOJ_13460_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB636D4724095C5F00A7349F /* BOJ_13460_RE.cpp */; };
 		CB64D20223E576E4006A6BFA /* BOJ_17136.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB64D20123E576E4006A6BFA /* BOJ_17136.cpp */; };
 		CB6A3D602455528E008EB695 /* 04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB6A3D5F2455528E008EB695 /* 04.cpp */; };
@@ -240,6 +241,7 @@
 		CB625046246300B100B8F83C /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CB625049246318BD00B8F83C /* Trie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trie.cpp; sourceTree = "<group>"; };
 		CB62504C246321E900B8F83C /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
+		CB62504E24632EBC00B8F83C /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CB636D4724095C5F00A7349F /* BOJ_13460_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_13460_RE.cpp; sourceTree = "<group>"; };
 		CB64D20123E576E4006A6BFA /* BOJ_17136.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17136.cpp; sourceTree = "<group>"; };
 		CB6A3D5F2455528E008EB695 /* 04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 04.cpp; sourceTree = "<group>"; };
@@ -376,6 +378,7 @@
 			isa = PBXGroup;
 			children = (
 				CB62504C246321E900B8F83C /* 01.cpp */,
+				CB62504E24632EBC00B8F83C /* 02.cpp */,
 			);
 			name = "2020블라인드";
 			path = "2020블라인드";
@@ -837,6 +840,7 @@
 				CB2BBFF124618F560065FF1C /* BOJ_12100_RE_RE.cpp in Sources */,
 				CB01664B23C8A25D0097F6F6 /* BOJ_15685.cpp in Sources */,
 				CB9000E52434645900822BE8 /* 03.cpp in Sources */,
+				CB62504F24632EBC00B8F83C /* 02.cpp in Sources */,
 				CB5C0E1A23E1993100134C1A /* SWEA_1953.cpp in Sources */,
 				CB7B601424396340007FE2DF /* 05.cpp in Sources */,
 				CB7B601824396458007FE2DF /* BOJ_17619.cpp in Sources */,
