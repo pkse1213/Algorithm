@@ -100,6 +100,7 @@
 		CB8038AB246422F900A0C115 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038AA246422F900A0C115 /* Vector.cpp */; };
 		CB8038AD246423DD00A0C115 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038AC246423DD00A0C115 /* Map.cpp */; };
 		CB8038AF246423E900A0C115 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038AE246423E900A0C115 /* String.cpp */; };
+		CB8038B12464522800A0C115 /* 04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038B02464522800A0C115 /* 04.cpp */; };
 		CB870C58243B737500F48C94 /* BOJ_1017.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB870C57243B737500F48C94 /* BOJ_1017.cpp */; };
 		CB870C5A243B832100F48C94 /* BOJ_1405.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB870C59243B832100F48C94 /* BOJ_1405.cpp */; };
 		CB9000E12434598000822BE8 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9000E02434598000822BE8 /* 01.cpp */; };
@@ -281,6 +282,7 @@
 		CB8038AA246422F900A0C115 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
 		CB8038AC246423DD00A0C115 /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
 		CB8038AE246423E900A0C115 /* String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
+		CB8038B02464522800A0C115 /* 04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 04.cpp; sourceTree = "<group>"; };
 		CB870C57243B737500F48C94 /* BOJ_1017.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1017.cpp; sourceTree = "<group>"; };
 		CB870C59243B832100F48C94 /* BOJ_1405.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1405.cpp; sourceTree = "<group>"; };
 		CB9000E02434598000822BE8 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
@@ -373,6 +375,7 @@
 				CB8038A62464016E00A0C115 /* 01.cpp */,
 				CB625046246300B100B8F83C /* 02.cpp */,
 				CB8038A82464225D00A0C115 /* 03.cpp */,
+				CB8038B02464522800A0C115 /* 04.cpp */,
 			);
 			name = "2018블라인드";
 			path = "2018블라인드";
@@ -856,6 +859,7 @@
 				CB2BBFF124618F560065FF1C /* BOJ_12100_RE_RE.cpp in Sources */,
 				CB01664B23C8A25D0097F6F6 /* BOJ_15685.cpp in Sources */,
 				CB9000E52434645900822BE8 /* 03.cpp in Sources */,
+				CB8038B12464522800A0C115 /* 04.cpp in Sources */,
 				CB62504F24632EBC00B8F83C /* 02.cpp in Sources */,
 				CB5C0E1A23E1993100134C1A /* SWEA_1953.cpp in Sources */,
 				CB7B601424396340007FE2DF /* 05.cpp in Sources */,
