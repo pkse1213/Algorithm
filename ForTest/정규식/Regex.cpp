@@ -1,12 +1,30 @@
 /*
- 정규 표현식은 문자열에서 패턴을 찾는데 사용하는데, 이를 통해
-
  주어진 문자열이 주어진 규칙에 맞는지 확인할 때
  주어진 문자열에서 원하는 패턴의 문자열을 검색할 때
  주어진 문자열에서 원하는 패턴의 문자열로 치환할 때
+
+ \\d*             임의의 개수의 숫자
+ \\w{2,5}
+ [0-9]{5}         0~9 5개
+ [a-zA-Z]*        a~z A~Z 임의의 개
+ [a -+,.]{9}         a (공백) - + , .이 9개
  
- 유용하다
+ <정규표현식 특수문자>
+ . 모든 문자 하나(와일드카드)
+ [, ] 문자 클래스 시작, 끝
+ {, } 카운팅 시작, 끝
+ (, ) 그룹핑 시작, 끝
+ \ 다음 문자를 특수문자로 인식
+ * 0번 이상(접미 연산)
+ + 1번 이상(접미 연산)
+ ? 선택적(0번이나 1번)(접미 연산)
+ | 대안(또는 (or))
+ ^ 행의 시작; 반전
+ $ 행의 끝
  
+ 로우 문자열 리터럴 사용 string s = R”( ... )”
+ 백슬래시와 큰 따옴표를 직접 사용할 수 있어짐.
+ 로우 문자열 리터럴이 아닌 일반 문자열이었다면 백슬래시를 두 개씩 써줘야 함.
  */
 #include <iostream>
 #include <algorithm>
@@ -73,10 +91,11 @@ void search_pattern()
     }
 }
 
-// 문자열 치환하기
+// 문자열 치환하기 - 한번에 다 바꿔버림
 // regex_replace 를 이용해서 정규 표현식으로 문자열 치환하기
 void replace_pattern()
 {
+// 1번
     //$1, $2는 캡쳐 그룹이 중첩되었을 때 어느 것이 $1 이고 $2 인지 알아야 하는데,
     // 괄호가 열리는 순서대로 $1, $2, ... 로 진행한다고 생각하면 된다.
     
@@ -88,7 +107,7 @@ void replace_pattern()
     string modified_html = regex_replace(html, re, "$1-sk-circle");
     cout << modified_html;
     
-    
+// 2번
     html1 = html;
     // 결과 : "7-sk-circle" 치환하며 뒤를 날려버리기
     regex re2(R"r((sk-circle(\d) sk-circle))r");
@@ -96,6 +115,16 @@ void replace_pattern()
 
     string modified_html2 = regex_replace(html, re2, "$2-sk-circle"); // $2
     cout << modified_html2;
+
+// 3번
+    string str = "a=1,b=2,c=3,d=4";
+    regex reg("([a-z])=([0-9])");
+    smatch m;
+     
+    str = regex_replace(str, reg, "$2=$1");
+    // 결과 1=a,2=b,3=c,4=d
+   
+
 }
 
 

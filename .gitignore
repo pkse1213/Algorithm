@@ -2,6 +2,8 @@
 # Created by https://www.gitignore.io/api/c++,xcode
 # Edit at https://www.gitignore.io/?templates=c++,xcode
 
+
+ForTest/*
 ### C++ ###
 # Prerequisites
 *.d
