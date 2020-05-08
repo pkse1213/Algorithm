@@ -222,7 +222,7 @@
 		CB2DFA4323E6BF0100358206 /* BOJ_17070.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17070.cpp; sourceTree = "<group>"; };
 		CB2DFA4523E6F27200358206 /* BOJ_16637.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_16637.cpp; sourceTree = "<group>"; };
 		CB2E03E024653D41001D8432 /* Regex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Regex.cpp; sourceTree = "<group>"; };
-		CB2E03E924654636001D8432 /* Regex_Rule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Regex_Rule.cpp; path = "정규식/Regex_Rule.cpp"; sourceTree = "<group>"; };
+		CB2E03E924654636001D8432 /* Regex_Rule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Regex_Rule.cpp; path = "../정규식/Regex_Rule.cpp"; sourceTree = "<group>"; };
 		CB2E03EB24655704001D8432 /* 00.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 00.cpp; sourceTree = "<group>"; };
 		CB2E03ED2465582B001D8432 /* ASCII.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ASCII.png; sourceTree = "<group>"; };
 		CB2E03EE246564B3001D8432 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
@@ -391,7 +391,6 @@
 				CB2E03EE246564B3001D8432 /* 01.cpp */,
 				CB2E03F0246564BA001D8432 /* 02.cpp */,
 				CB2E03F2246564C2001D8432 /* 03.cpp */,
-				CB2E03F4246564C8001D8432 /* Ex.cpp */,
 			);
 			path = Cupang;
 			sourceTree = "<group>";
@@ -411,13 +410,12 @@
 		CB625048246318AB00B8F83C /* ForTest */ = {
 			isa = PBXGroup;
 			children = (
+				CBDC2FE92465982A005C3853 /* Regex */,
 				CB2E03ED2465582B001D8432 /* ASCII.png */,
 				CB625049246318BD00B8F83C /* Trie.cpp */,
 				CB8038AA246422F900A0C115 /* Vector.cpp */,
 				CB8038AC246423DD00A0C115 /* Map.cpp */,
 				CB8038AE246423E900A0C115 /* String.cpp */,
-				CB2E03E024653D41001D8432 /* Regex.cpp */,
-				CB2E03E924654636001D8432 /* Regex_Rule.cpp */,
 			);
 			path = ForTest;
 			sourceTree = "<group>";
@@ -560,6 +558,16 @@
 				CB6A3D5F2455528E008EB695 /* 04.cpp */,
 			);
 			path = "Hash-Map";
+			sourceTree = "<group>";
+		};
+		CBDC2FE92465982A005C3853 /* Regex */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E03E024653D41001D8432 /* Regex.cpp */,
+				CB2E03E924654636001D8432 /* Regex_Rule.cpp */,
+				CB2E03F4246564C8001D8432 /* Ex.cpp */,
+			);
+			path = Regex;
 			sourceTree = "<group>";
 		};
 		CBEA5E7723B0F8BB00F01AF8 = {

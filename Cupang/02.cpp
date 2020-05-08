@@ -49,7 +49,7 @@ vector<string> solution(vector<string> rooms, int target){
 
     map<string, vector<int>>::iterator it;
     vector<pair<string, vector<int>>> v;
-    // map 순회
+    
     for(it = m.begin(); it != m.end(); it++)
     {
         v.push_back({it->first, it->second});
