@@ -161,6 +161,11 @@
 		CBD7868C24546C2C0074470B /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD7868B24546C2C0074470B /* 01.cpp */; };
 		CBD7868E245479D40074470B /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD7868D245479D40074470B /* 02.cpp */; };
 		CBD7869024547CB20074470B /* 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD7868F24547CB20074470B /* 03.cpp */; };
+		CBDC2FEC24666F7B005C3853 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDC2FEB24666F7B005C3853 /* 01.cpp */; };
+		CBDC2FEE24666F84005C3853 /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDC2FED24666F84005C3853 /* 02.cpp */; };
+		CBDC2FF024666F8C005C3853 /* 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDC2FEF24666F8C005C3853 /* 03.cpp */; };
+		CBDC2FF224666F92005C3853 /* 04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDC2FF124666F92005C3853 /* 04.cpp */; };
+		CBDC2FF424666F97005C3853 /* 05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDC2FF324666F97005C3853 /* 05.cpp */; };
 		CBE1CE2E23C4B557009B5EBB /* SWEA_4012.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBE1CE2D23C4B557009B5EBB /* SWEA_4012.cpp */; };
 		CBE5721323E5A70A00794A01 /* BOJ_17471.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBE5721223E5A70A00794A01 /* BOJ_17471.cpp */; };
 		CBEA5E8E23B0F8F200F01AF8 /* SWEA_3074.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8C23B0F8F200F01AF8 /* SWEA_3074.cpp */; };
@@ -350,6 +355,11 @@
 		CBD7868B24546C2C0074470B /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CBD7868D245479D40074470B /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CBD7868F24547CB20074470B /* 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03.cpp; sourceTree = "<group>"; };
+		CBDC2FEB24666F7B005C3853 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
+		CBDC2FED24666F84005C3853 /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
+		CBDC2FEF24666F8C005C3853 /* 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03.cpp; sourceTree = "<group>"; };
+		CBDC2FF124666F92005C3853 /* 04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 04.cpp; sourceTree = "<group>"; };
+		CBDC2FF324666F97005C3853 /* 05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 05.cpp; sourceTree = "<group>"; };
 		CBE1CE2D23C4B557009B5EBB /* SWEA_4012.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_4012.cpp; sourceTree = "<group>"; };
 		CBE5721223E5A70A00794A01 /* BOJ_17471.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17471.cpp; sourceTree = "<group>"; };
 		CBEA5E8023B0F8BB00F01AF8 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -510,6 +520,7 @@
 		CBD7866C245406290074470B /* KAKAO */ = {
 			isa = PBXGroup;
 			children = (
+				CBDC2FEA24666E59005C3853 /* 2020여름인턴 */,
 				CB62504B246321DD00B8F83C /* 2020블라인드 */,
 				CB625045246300A100B8F83C /* 2018블라인드 */,
 				CBD78684245423110074470B /* 2018예선 */,
@@ -570,17 +581,30 @@
 			path = Regex;
 			sourceTree = "<group>";
 		};
+		CBDC2FEA24666E59005C3853 /* 2020여름인턴 */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC2FEB24666F7B005C3853 /* 01.cpp */,
+				CBDC2FED24666F84005C3853 /* 02.cpp */,
+				CBDC2FEF24666F8C005C3853 /* 03.cpp */,
+				CBDC2FF124666F92005C3853 /* 04.cpp */,
+				CBDC2FF324666F97005C3853 /* 05.cpp */,
+			);
+			name = "2020여름인턴";
+			path = "2020여름인턴";
+			sourceTree = "<group>";
+		};
 		CBEA5E7723B0F8BB00F01AF8 = {
 			isa = PBXGroup;
 			children = (
 				CBEA5E9C23B4C21E00F01AF8 /* Main */,
+				CBD7866C245406290074470B /* KAKAO */,
 				CB625048246318AB00B8F83C /* ForTest */,
 				CBEA5E8A23B0F8C100F01AF8 /* SWExpertAcademy */,
 				CBD7868924546C020074470B /* Programmers */,
 				CBEA5EA823B4D8E700F01AF8 /* BAEKJOON */,
 				CBD786602453F7AF0074470B /* Hyundai */,
 				CB2E03E824654509001D8432 /* Cupang */,
-				CBD7866C245406290074470B /* KAKAO */,
 				CB9000DF2434597000822BE8 /* LINE */,
 				CB7256DA243C4F5E00F862FD /* Graph */,
 				CB6E89B024516821003B39F6 /* Sort */,
@@ -848,6 +872,8 @@
 				CB39A4F823D7D6AE00ABE97F /* BOJ_17472.cpp in Sources */,
 				CB7B600C2439630C007FE2DF /* 01.cpp in Sources */,
 				CBFB7EE62417703A00873981 /* BOJ_14500_RE.cpp in Sources */,
+				CBDC2FF424666F97005C3853 /* 05.cpp in Sources */,
+				CBDC2FEE24666F84005C3853 /* 02.cpp in Sources */,
 				CB2E03EF246564B3001D8432 /* 01.cpp in Sources */,
 				CB431ACD23F2651700EDB896 /* BOJ_17135_DP.cpp in Sources */,
 				CBAE49A1244D83A400C90294 /* BOJ_2294.cpp in Sources */,
@@ -865,10 +891,12 @@
 				CB9CB751244ADC0900594BDF /* BOJ_2579_2.cpp in Sources */,
 				CB2E03EA24654636001D8432 /* Regex_Rule.cpp in Sources */,
 				CB5C0E1D23E296B700134C1A /* SWEA_1949.cpp in Sources */,
+				CBDC2FF024666F8C005C3853 /* 03.cpp in Sources */,
 				CB2A566E244C242900D9D96D /* BOJ_11726.cpp in Sources */,
 				CB2E03EC24655704001D8432 /* 00.cpp in Sources */,
 				CB9CB753244AE34700594BDF /* BOJ_1149.cpp in Sources */,
 				CB6E89B82451C1DE003B39F6 /* CountingSort.cpp in Sources */,
+				CBDC2FEC24666F7B005C3853 /* 01.cpp in Sources */,
 				CB5C0E1823E16BE300134C1A /* SWEA_2112.cpp in Sources */,
 				CB01665223CC4A310097F6F6 /* BOJ_15686.cpp in Sources */,
 				CB2A5672244C471400D9D96D /* BOJ_1912_2.cpp in Sources */,
@@ -905,6 +933,7 @@
 				CB01664B23C8A25D0097F6F6 /* BOJ_15685.cpp in Sources */,
 				CB9000E52434645900822BE8 /* 03.cpp in Sources */,
 				CB8038B12464522800A0C115 /* 04.cpp in Sources */,
+				CBDC2FF224666F92005C3853 /* 04.cpp in Sources */,
 				CB62504F24632EBC00B8F83C /* 02.cpp in Sources */,
 				CB5C0E1A23E1993100134C1A /* SWEA_1953.cpp in Sources */,
 				CB7B601424396340007FE2DF /* 05.cpp in Sources */,
