@@ -110,6 +110,7 @@
 		CB8038B12464522800A0C115 /* 04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038B02464522800A0C115 /* 04.cpp */; };
 		CB818A4824694FC5002739C3 /* 05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB818A4724694FC5002739C3 /* 05.cpp */; };
 		CB84BF1A246A343B001A2844 /* BOJ_13458_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB84BF19246A343B001A2844 /* BOJ_13458_RE.cpp */; };
+		CB84BF1C246A34E0001A2844 /* BOJ_3190_RE_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB84BF1B246A34E0001A2844 /* BOJ_3190_RE_RE.cpp */; };
 		CB870C58243B737500F48C94 /* BOJ_1017.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB870C57243B737500F48C94 /* BOJ_1017.cpp */; };
 		CB870C5A243B832100F48C94 /* BOJ_1405.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB870C59243B832100F48C94 /* BOJ_1405.cpp */; };
 		CB9000E12434598000822BE8 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9000E02434598000822BE8 /* 01.cpp */; };
@@ -307,6 +308,7 @@
 		CB8038B02464522800A0C115 /* 04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 04.cpp; sourceTree = "<group>"; };
 		CB818A4724694FC5002739C3 /* 05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 05.cpp; sourceTree = "<group>"; };
 		CB84BF19246A343B001A2844 /* BOJ_13458_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_13458_RE.cpp; sourceTree = "<group>"; };
+		CB84BF1B246A34E0001A2844 /* BOJ_3190_RE_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_3190_RE_RE.cpp; sourceTree = "<group>"; };
 		CB870C57243B737500F48C94 /* BOJ_1017.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1017.cpp; sourceTree = "<group>"; };
 		CB870C59243B832100F48C94 /* BOJ_1405.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1405.cpp; sourceTree = "<group>"; };
 		CB9000E02434598000822BE8 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
@@ -758,6 +760,7 @@
 				CB9DA202245F385200CE7FD2 /* BOJ_13460_RE_RE.cpp */,
 				CB2BBFF024618F560065FF1C /* BOJ_12100_RE_RE.cpp */,
 				CB84BF19246A343B001A2844 /* BOJ_13458_RE.cpp */,
+				CB84BF1B246A34E0001A2844 /* BOJ_3190_RE_RE.cpp */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -921,6 +924,7 @@
 				CB9000E324345F4D00822BE8 /* 02.cpp in Sources */,
 				CB7256DC243C4FA800F862FD /* DijkstraAgorithm.cpp in Sources */,
 				CB37D25523FCE0750093CDE6 /* SWEA_4014.cpp in Sources */,
+				CB84BF1C246A34E0001A2844 /* BOJ_3190_RE_RE.cpp in Sources */,
 				CB78422523BCC76B00393474 /* BOJ_14502.cpp in Sources */,
 				CB7B60122439632A007FE2DF /* 04.cpp in Sources */,
 				CB5A128423DB353E003B8FB0 /* SWEA_2383.cpp in Sources */,

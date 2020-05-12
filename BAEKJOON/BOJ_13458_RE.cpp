@@ -1,3 +1,8 @@
+/*
+ 13458. 시험감독
+ 
+ 굉장히 쉬운 문제인데 범위를 생각하지 못해서 계속 틀렸다ㅠㅠ
+ */
 #include <iostream>
 #include <vector>
 using namespace std;

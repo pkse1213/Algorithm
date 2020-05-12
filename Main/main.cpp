@@ -1,13 +1,13 @@
 #include <iostream>
-#include <sstream>
+#include <vector>
+#include <queue>
 #include <algorithm>
 #include <cstring>
 #include <string>
-#include <queue>
 #include <deque>
-#include <vector>
 #include <stack>
 #include <map>
+#include <sstream>
 #include <regex>
 #include <math.h>
 #define MAX 11
