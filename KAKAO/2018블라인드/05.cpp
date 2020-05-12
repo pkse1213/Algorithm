@@ -55,7 +55,7 @@ int solution1(vector<string> lines) {
 
 int solution2(vector<string> lines) {
     int answer = 0;
-
+    
     vector<pair<double, double>> v1;
     regex re("[0-9 -]{11}(\\d{2}):(\\d{2}):(\\d{2}.\\d{3}) (\\d[0-9.]*)s");
     smatch match;
@@ -94,8 +94,17 @@ int solution2(vector<string> lines) {
 
 int solution(vector<string> lines) {
     int answer = 0;
-
     vector<pair<int, int>> v1;
+    
+    /*
+    int end=0;
+    int elapsed_time;
+    int y, m, d, hh, mm, ss, zzz;
+    double elapsed_double;
+    sscanf(lines[i].c_str(), "%d-%d-%d %d:%d:%d.%d %lfs", &y, &m, &d, &hh, &mm,&ss, &zzz, &elapsed_double);
+    elapsed_time = (int)(elapsed_double * 1000);
+    */
+    
     regex re("[0-9 -]{11}(\\d{2}):(\\d{2}):(\\d{2}.\\d{3}) (\\d[0-9.]*)s");
     smatch match;
     for(int i = 0; i < lines.size(); i++)
@@ -108,28 +117,21 @@ int solution(vector<string> lines) {
                 time += pow(60, g)*stod(match[j].str().c_str())*1000;
             }
             
-            int aa = stod(match[4])*1000;
-            
-            v1.push_back({time - aa + 1, time});
+            v1.push_back({time - stod(match[4])*1000 + 1, time});
         }
     }
     
-    sort(v1.begin(),v1.end());
-    
-    int n = 1;
-    int s = 0;
-    int e = 0;
-    
-    while (1)
+    for(int i = 0; i < v1.size(); i++)
     {
-        if(n > answer) answer = n;
-        e++; n++;
-        if(e == v1.size()) break;
-        int st = v1[e].first;
-        while (st - v1[s].second >= 1000)
+        int n = 1;
+        int s = v1[i].second;
+        int e = s + 999;
+        
+        for(int j = i+1; j < v1.size(); j++)
         {
-            s++; n--;
+            if(v1[j].first <= e && v1[j].second >= s) n++;
         }
+        if(answer < n) answer = n;
     }
     
     return answer;
@@ -140,7 +142,18 @@ int main()
     ios::sync_with_stdio(0);
     cin.tie(0);
    
-    solution({"2016-09-15 01:00:04.002 2.0s","2016-09-15 01:00:07.000 2s","2016-09-15 20:59:57.421 0.351s", "2016-09-15 20:59:58.233 1.181s", "2016-09-15 20:59:58.299 0.8s", "2016-09-15 20:59:58.688 1.041s", "2016-09-15 20:59:59.591 1.412s", "2016-09-15 21:00:00.464 1.466s", "2016-09-15 21:00:00.741 1.581s", "2016-09-15 21:00:00.748 2.31s", "2016-09-15 21:00:00.966 0.381s", "2016-09-15 21:00:02.066 2.62s"});
+//    solution({"2016-09-15 00:00:00.000 2.3s", "2016-09-15 23:59:59.999 0.1s"});
+    solution({
+        "2016-09-15 20:59:57.421 0.351s",
+        "2016-09-15 20:59:58.233 1.181s",
+        "2016-09-15 20:59:58.299 0.8s",
+        "2016-09-15 20:59:58.688 1.041s",
+        "2016-09-15 20:59:59.591 1.412s",
+        "2016-09-15 21:00:00.464 1.466s",
+        "2016-09-15 21:00:00.741 1.581s",
+        "2016-09-15 21:00:00.748 2.31s",
+        "2016-09-15 21:00:00.966 0.381s",
+        "2016-09-15 21:00:02.066 2.62s"});
     
     return 0;
 }
