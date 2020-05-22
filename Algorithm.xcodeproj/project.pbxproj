@@ -123,6 +123,8 @@
 		CB84BF1C246A34E0001A2844 /* BOJ_3190_RE_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB84BF1B246A34E0001A2844 /* BOJ_3190_RE_RE.cpp */; };
 		CB870C58243B737500F48C94 /* BOJ_1017.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB870C57243B737500F48C94 /* BOJ_1017.cpp */; };
 		CB870C5A243B832100F48C94 /* BOJ_1405.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB870C59243B832100F48C94 /* BOJ_1405.cpp */; };
+		CB8F550824777B4B000D6656 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8323B0F8BB00F01AF8 /* main.cpp */; };
+		CB8F550A24777DC2000D6656 /* BOJ_15686_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8F550924777DC2000D6656 /* BOJ_15686_RE.cpp */; };
 		CB9000E12434598000822BE8 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9000E02434598000822BE8 /* 01.cpp */; };
 		CB9000E324345F4D00822BE8 /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9000E224345F4D00822BE8 /* 02.cpp */; };
 		CB9000E52434645900822BE8 /* 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9000E42434645900822BE8 /* 03.cpp */; };
@@ -137,7 +139,6 @@
 		CB9CFD262403B065007763DB /* BOJ_3190_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9CFD252403B065007763DB /* BOJ_3190_RE.cpp */; };
 		CB9DA203245F385200CE7FD2 /* BOJ_13460_RE_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9DA202245F385200CE7FD2 /* BOJ_13460_RE_RE.cpp */; };
 		CB9FB1422476C3B100D37E1B /* BOJ_15684_RE_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9FB1412476C3B100D37E1B /* BOJ_15684_RE_RE.cpp */; };
-		CB9FB1432476CE5100D37E1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8323B0F8BB00F01AF8 /* main.cpp */; };
 		CBA0296323F95D2A00C467F9 /* SWEA_5653.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBA0296223F95D2A00C467F9 /* SWEA_5653.cpp */; };
 		CBA0296523FA996E00C467F9 /* SWEA_5656.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBA0296423FA996E00C467F9 /* SWEA_5656.cpp */; };
 		CBA0296723FBCE1100C467F9 /* SWEA_5650.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBA0296623FBCE1100C467F9 /* SWEA_5650.cpp */; };
@@ -335,6 +336,7 @@
 		CB84BF1B246A34E0001A2844 /* BOJ_3190_RE_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_3190_RE_RE.cpp; sourceTree = "<group>"; };
 		CB870C57243B737500F48C94 /* BOJ_1017.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1017.cpp; sourceTree = "<group>"; };
 		CB870C59243B832100F48C94 /* BOJ_1405.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1405.cpp; sourceTree = "<group>"; };
+		CB8F550924777DC2000D6656 /* BOJ_15686_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_15686_RE.cpp; sourceTree = "<group>"; };
 		CB9000E02434598000822BE8 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CB9000E224345F4D00822BE8 /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CB9000E42434645900822BE8 /* 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03.cpp; sourceTree = "<group>"; };
@@ -811,6 +813,7 @@
 				CB38E3F624737EE900DD1F97 /* BOJ_15683_RE_RE.cpp */,
 				CB9FB1412476C3B100D37E1B /* BOJ_15684_RE_RE.cpp */,
 				CB7803552476D55800BCED53 /* BOJ_15685_RE.cpp */,
+				CB8F550924777DC2000D6656 /* BOJ_15686_RE.cpp */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -956,6 +959,7 @@
 				CB2E03EA24654636001D8432 /* Regex_Rule.cpp in Sources */,
 				CBC89706246E373D009CE341 /* BOJ_14888_RE.cpp in Sources */,
 				CB5C0E1D23E296B700134C1A /* SWEA_1949.cpp in Sources */,
+				CB8F550A24777DC2000D6656 /* BOJ_15686_RE.cpp in Sources */,
 				CBDC2FF024666F8C005C3853 /* 03.cpp in Sources */,
 				CB2A566E244C242900D9D96D /* BOJ_11726.cpp in Sources */,
 				CB2E03EC24655704001D8432 /* 00.cpp in Sources */,
@@ -1085,7 +1089,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9FB1432476CE5100D37E1B /* main.cpp in Sources */,
+				CB8F550824777B4B000D6656 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
