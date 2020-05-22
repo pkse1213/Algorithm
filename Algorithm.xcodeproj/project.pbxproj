@@ -123,8 +123,9 @@
 		CB84BF1C246A34E0001A2844 /* BOJ_3190_RE_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB84BF1B246A34E0001A2844 /* BOJ_3190_RE_RE.cpp */; };
 		CB870C58243B737500F48C94 /* BOJ_1017.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB870C57243B737500F48C94 /* BOJ_1017.cpp */; };
 		CB870C5A243B832100F48C94 /* BOJ_1405.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB870C59243B832100F48C94 /* BOJ_1405.cpp */; };
-		CB8F550824777B4B000D6656 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8323B0F8BB00F01AF8 /* main.cpp */; };
 		CB8F550A24777DC2000D6656 /* BOJ_15686_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8F550924777DC2000D6656 /* BOJ_15686_RE.cpp */; };
+		CB8F550E24778B78000D6656 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8323B0F8BB00F01AF8 /* main.cpp */; };
+		CB8F551024778F18000D6656 /* SWEA_1953_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8F550F24778F18000D6656 /* SWEA_1953_RE.cpp */; };
 		CB9000E12434598000822BE8 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9000E02434598000822BE8 /* 01.cpp */; };
 		CB9000E324345F4D00822BE8 /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9000E224345F4D00822BE8 /* 02.cpp */; };
 		CB9000E52434645900822BE8 /* 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9000E42434645900822BE8 /* 03.cpp */; };
@@ -337,6 +338,7 @@
 		CB870C57243B737500F48C94 /* BOJ_1017.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1017.cpp; sourceTree = "<group>"; };
 		CB870C59243B832100F48C94 /* BOJ_1405.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1405.cpp; sourceTree = "<group>"; };
 		CB8F550924777DC2000D6656 /* BOJ_15686_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_15686_RE.cpp; sourceTree = "<group>"; };
+		CB8F550F24778F18000D6656 /* SWEA_1953_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_1953_RE.cpp; sourceTree = "<group>"; };
 		CB9000E02434598000822BE8 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CB9000E224345F4D00822BE8 /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CB9000E42434645900822BE8 /* 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03.cpp; sourceTree = "<group>"; };
@@ -700,6 +702,7 @@
 				CB6250432462E91100B8F83C /* SWEA_2382_RE.cpp */,
 				CB398D16246FE1BC00E4784A /* SWEA_2383_RE.cpp */,
 				CB398D18246FEFE200E4784A /* SWEA_1949_RE.cpp */,
+				CB8F550F24778F18000D6656 /* SWEA_1953_RE.cpp */,
 			);
 			path = SWExpertAcademy;
 			sourceTree = "<group>";
@@ -991,6 +994,7 @@
 				CB5A128423DB353E003B8FB0 /* SWEA_2383.cpp in Sources */,
 				CBCBF4A52449DC6A00061A7A /* BOJ_1614.cpp in Sources */,
 				CB7B600E2439631C007FE2DF /* 02.cpp in Sources */,
+				CB8F551024778F18000D6656 /* SWEA_1953_RE.cpp in Sources */,
 				CB52CECD2472EE3C00875E75 /* BOJ_14980.cpp in Sources */,
 				CB6E89B62451C184003B39F6 /* BOJ_15688.cpp in Sources */,
 				CB870C5A243B832100F48C94 /* BOJ_1405.cpp in Sources */,
@@ -1089,7 +1093,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB8F550824777B4B000D6656 /* main.cpp in Sources */,
+				CB8F550E24778B78000D6656 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
