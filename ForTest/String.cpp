@@ -20,4 +20,7 @@ int main()
     
     // 숫자로 변환
     int n = atoi(res.c_str());
+    
+    // 문자열로 변환
+    string tt = to_string(100);
 }
