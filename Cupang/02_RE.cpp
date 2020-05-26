@@ -1,58 +1,65 @@
 #include <iostream>
-#include <sstream>
-#include <string>
 #include <vector>
-#include <stack>
 #include <map>
+#include <algorithm>
+#include <sstream>
 #include <regex>
 using namespace std;
+
+
 bool comp(pair<string, vector<int>> A, pair<string, vector<int>> B)
 {
-    
-    if(A.second.size() == B.second.size() && A.second[0] == B.second[0])
-    {
-        return A.first < B.first;
-    }
     if(A.second.size() == B.second.size())
     {
-        return A.second[0] < B.second[0];
+        if(A.second[0] == B.second[0])
+        {
+            return A.first < B.first;
+        }
+        else
+            return A.second[0] < B.second[0];
     }
     else
-    {
         return A.second.size() < B.second.size();
-    }
 }
 
-vector<string> solution(vector<string> rooms, int target){
+///["[403]James", "[404]Azad,Louis,Andy", "[101]Azad,Guard"]
+vector<string> solution(vector<string> rooms, int target)
+{
     vector<string> answer;
-    regex re(".([0-9]*).");
+    
+    regex re("\\[([0-9]*)\\]");
     smatch match;
     
-    map<string, int> list;
+    map<string, int> list; // target방에 있는 사람들 리스트
     map<string, vector<int>> m;
+    map<string, vector<int>>::iterator it;
+    
     for(int i = 0; i < rooms.size(); i++)
     {
-        string name = "";
         int num = 0;
+        string name_list = "";
+        
         if(regex_search(rooms[i], match, re))
         {
             num = atoi(match[1].str().c_str());
-            name = match.suffix();
+            name_list = match.suffix();
         }
-        stringstream ss(name);
-        string res;
-        while (getline(ss, res, ',')) {
-            if(num == target) list[res] = 9;
-            if(list.find(res) == list.end()) m[res].push_back(abs(num-target));
+        
+        stringstream ss(name_list);
+        string name;
+        
+        while (getline(ss, name, ','))
+        {
+            if(num == target) list[name] = 0;
+            m[name].push_back(abs(target-num));
         }
     }
     
-    map<string, vector<int>>::iterator it;
     vector<pair<string, vector<int>>> v;
-    
     for(it = m.begin(); it != m.end(); it++)
     {
-        v.push_back({it->first, it->second});
+        if(list.find(it->first) == list.end())
+            v.push_back(make_pair(it->first, it->second));
     }
     
     for(int i = 0; i < v.size(); i++)
@@ -60,18 +67,17 @@ vector<string> solution(vector<string> rooms, int target){
         sort(v[i].second.begin(), v[i].second.end());
     }
     sort(v.begin(), v.end(), comp);
+    
     for(int i = 0; i < v.size(); i++)
     {
-        if(list.find(v[i].first) == list.end() )
-            answer.push_back(v[i].first);
+         answer.push_back(v[i].first);
     }
+    
     return answer;
 }
 
 int main()
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
     vector<string> v = solution({"[101]Azad,Guard", "[202]Guard", "[303]Guard,Dzaz"},   202
                                 );
     for(int i = 0; i < v.size(); i++)
