@@ -19,7 +19,7 @@ int main()
     reverse(v1.begin(), v1.end());
     
     // 최대값 구하기
-    int max_num = max_element(v1.begin(), v2.begin();
+    int max_num = max_element(v1.begin(), v1.end();
     /*
      // Array일 경우
      DP[1] to DP[n]중에 최댓값의 주소를 반환하는 함수
