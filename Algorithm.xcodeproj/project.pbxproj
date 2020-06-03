@@ -121,6 +121,7 @@
 		CB7EFF4024879AC500CE0B19 /* BOJ_17822_RE_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF3F24879AC500CE0B19 /* BOJ_17822_RE_RE.cpp */; };
 		CB7EFF412487B5E300CE0B19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8323B0F8BB00F01AF8 /* main.cpp */; };
 		CB7EFF432487C2DE00CE0B19 /* SWEA_5648_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF422487C2DE00CE0B19 /* SWEA_5648_RE.cpp */; };
+		CB7EFF452487D0ED00CE0B19 /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF442487D0ED00CE0B19 /* 02.cpp */; };
 		CB8038A72464016E00A0C115 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038A62464016E00A0C115 /* 01.cpp */; };
 		CB8038A92464225D00A0C115 /* 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038A82464225D00A0C115 /* 03.cpp */; };
 		CB8038AB246422F900A0C115 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038AA246422F900A0C115 /* Vector.cpp */; };
@@ -355,6 +356,7 @@
 		CB7EFF3C248784BB00CE0B19 /* BOJ_17837_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17837_RE.cpp; sourceTree = "<group>"; };
 		CB7EFF3F24879AC500CE0B19 /* BOJ_17822_RE_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17822_RE_RE.cpp; sourceTree = "<group>"; };
 		CB7EFF422487C2DE00CE0B19 /* SWEA_5648_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_5648_RE.cpp; sourceTree = "<group>"; };
+		CB7EFF442487D0ED00CE0B19 /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CB8038A62464016E00A0C115 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CB8038A82464225D00A0C115 /* 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03.cpp; sourceTree = "<group>"; };
 		CB8038AA246422F900A0C115 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
@@ -490,6 +492,7 @@
 			isa = PBXGroup;
 			children = (
 				CB398D1B246FFA3F00E4784A /* 01.cpp */,
+				CB7EFF442487D0ED00CE0B19 /* 02.cpp */,
 			);
 			path = 2019;
 			sourceTree = "<group>";
@@ -1169,6 +1172,7 @@
 				CBCC372123DD8C7D00681D02 /* SWEA_2115.cpp in Sources */,
 				CB6E89C02451F099003B39F6 /* InsertSort.cpp in Sources */,
 				CBB77B0623B778EA00627736 /* BOJ_3190.cpp in Sources */,
+				CB7EFF452487D0ED00CE0B19 /* 02.cpp in Sources */,
 				CB8038AB246422F900A0C115 /* Vector.cpp in Sources */,
 				CBCBF4A12449BA0900061A7A /* BOJ_1021.cpp in Sources */,
 				CBA0296523FA996E00C467F9 /* SWEA_5656.cpp in Sources */,
