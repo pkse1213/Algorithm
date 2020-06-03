@@ -118,8 +118,9 @@
 		CB7EFF36248673C100CE0B19 /* BOJ_17142_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF35248673C100CE0B19 /* BOJ_17142_RE.cpp */; };
 		CB7EFF3A248768C900CE0B19 /* BOJ_17779_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF39248768C900CE0B19 /* BOJ_17779_RE.cpp */; };
 		CB7EFF3D248784BB00CE0B19 /* BOJ_17837_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF3C248784BB00CE0B19 /* BOJ_17837_RE.cpp */; };
-		CB7EFF3E2487946500CE0B19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8323B0F8BB00F01AF8 /* main.cpp */; };
 		CB7EFF4024879AC500CE0B19 /* BOJ_17822_RE_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF3F24879AC500CE0B19 /* BOJ_17822_RE_RE.cpp */; };
+		CB7EFF412487B5E300CE0B19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEA5E8323B0F8BB00F01AF8 /* main.cpp */; };
+		CB7EFF432487C2DE00CE0B19 /* SWEA_5648_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF422487C2DE00CE0B19 /* SWEA_5648_RE.cpp */; };
 		CB8038A72464016E00A0C115 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038A62464016E00A0C115 /* 01.cpp */; };
 		CB8038A92464225D00A0C115 /* 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038A82464225D00A0C115 /* 03.cpp */; };
 		CB8038AB246422F900A0C115 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038AA246422F900A0C115 /* Vector.cpp */; };
@@ -353,6 +354,7 @@
 		CB7EFF39248768C900CE0B19 /* BOJ_17779_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17779_RE.cpp; sourceTree = "<group>"; };
 		CB7EFF3C248784BB00CE0B19 /* BOJ_17837_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17837_RE.cpp; sourceTree = "<group>"; };
 		CB7EFF3F24879AC500CE0B19 /* BOJ_17822_RE_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_17822_RE_RE.cpp; sourceTree = "<group>"; };
+		CB7EFF422487C2DE00CE0B19 /* SWEA_5648_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_5648_RE.cpp; sourceTree = "<group>"; };
 		CB8038A62464016E00A0C115 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CB8038A82464225D00A0C115 /* 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03.cpp; sourceTree = "<group>"; };
 		CB8038AA246422F900A0C115 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
@@ -760,6 +762,7 @@
 				CB8F550F24778F18000D6656 /* SWEA_1953_RE.cpp */,
 				CBAFC96A2478C08100CE9224 /* SWEA_2112_RE.cpp */,
 				CBCFB672247D399900CE2F3C /* SWEA_5656_RE.cpp */,
+				CB7EFF422487C2DE00CE0B19 /* SWEA_5648_RE.cpp */,
 			);
 			path = SWExpertAcademy;
 			sourceTree = "<group>";
@@ -1123,6 +1126,7 @@
 				CBD7868E245479D40074470B /* 02.cpp in Sources */,
 				CB837138247FDD420084640B /* BOJ_16234_RE.cpp in Sources */,
 				CB870C58243B737500F48C94 /* BOJ_1017.cpp in Sources */,
+				CB7EFF432487C2DE00CE0B19 /* SWEA_5648_RE.cpp in Sources */,
 				CBCBF49F2449A66B00061A7A /* BOJ_1018.cpp in Sources */,
 				CB818A4824694FC5002739C3 /* 05.cpp in Sources */,
 				CB7EFF4024879AC500CE0B19 /* BOJ_17822_RE_RE.cpp in Sources */,
@@ -1180,7 +1184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB7EFF3E2487946500CE0B19 /* main.cpp in Sources */,
+				CB7EFF412487B5E300CE0B19 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
