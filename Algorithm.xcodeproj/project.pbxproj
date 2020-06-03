@@ -127,6 +127,7 @@
 		CB7EFF4D2487E30F00CE0B19 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF4C2487E30F00CE0B19 /* 01.cpp */; };
 		CB7EFF502487F8E700CE0B19 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF4F2487F8E700CE0B19 /* 01.cpp */; };
 		CB7EFF542487FAAC00CE0B19 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF532487FAAC00CE0B19 /* Queue.cpp */; };
+		CB7EFF562488005000CE0B19 /* 02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB7EFF552488005000CE0B19 /* 02.cpp */; };
 		CB8038A72464016E00A0C115 /* 01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038A62464016E00A0C115 /* 01.cpp */; };
 		CB8038A92464225D00A0C115 /* 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038A82464225D00A0C115 /* 03.cpp */; };
 		CB8038AB246422F900A0C115 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8038AA246422F900A0C115 /* Vector.cpp */; };
@@ -367,6 +368,7 @@
 		CB7EFF4C2487E30F00CE0B19 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CB7EFF4F2487F8E700CE0B19 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CB7EFF532487FAAC00CE0B19 /* Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		CB7EFF552488005000CE0B19 /* 02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02.cpp; sourceTree = "<group>"; };
 		CB8038A62464016E00A0C115 /* 01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01.cpp; sourceTree = "<group>"; };
 		CB8038A82464225D00A0C115 /* 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03.cpp; sourceTree = "<group>"; };
 		CB8038AA246422F900A0C115 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
@@ -616,6 +618,7 @@
 			isa = PBXGroup;
 			children = (
 				CB7EFF4F2487F8E700CE0B19 /* 01.cpp */,
+				CB7EFF552488005000CE0B19 /* 02.cpp */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
@@ -1101,6 +1104,7 @@
 				CB6005D623B8EA5300D59FE6 /* BOJ_14499.cpp in Sources */,
 				CB7B5FFD24374B35007FE2DF /* BOJ_2379.cpp in Sources */,
 				CBA0296323F95D2A00C467F9 /* SWEA_5653.cpp in Sources */,
+				CB7EFF562488005000CE0B19 /* 02.cpp in Sources */,
 				CB398D19246FEFE200E4784A /* SWEA_1949_RE.cpp in Sources */,
 				CB84CDD82481251900F7403F /* BOJ_16236_RE_RE.cpp in Sources */,
 				CB9CFD262403B065007763DB /* BOJ_3190_RE.cpp in Sources */,
