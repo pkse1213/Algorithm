@@ -10,9 +10,12 @@ int main()
     
     // 오름차순 정렬
     sort(v1.begin(), v1.end(), less<int>());
+    sort(v1.begin(), v1.end());
     
     // 내림차순 정렬
     sort(v1.begin(), v1.end(), greater<int>());
+    sort(v1.rbegin(), v1.rend()); // r = reverse를 뜻함
+    
     
     // 안정정렬
     stable_sort(v1.begin(), v1.end());
