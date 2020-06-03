@@ -8,6 +8,12 @@ int main()
     vector<int> v1;
     vector<int> v2;
     
+    // 오름차순 정렬
+    sort(v1.begin(), v1.end(), less<int>());
+    
+    // 내림차순 정렬
+    sort(v1.begin(), v1.end(), greater<int>());
+    
     // 안정정렬
     stable_sort(v1.begin(), v1.end());
     
