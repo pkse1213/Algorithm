@@ -16,6 +16,7 @@
 		CB149569246B79850051F389 /* BOJ_14499_RE_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB149568246B79850051F389 /* BOJ_14499_RE_RE.cpp */; };
 		CB14956B246B80E20051F389 /* BOJ_14500_RE_RE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB14956A246B80E20051F389 /* BOJ_14500_RE_RE.cpp */; };
 		CB14CEDD2493A4D30078086B /* 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB14CEDC2493A4D30078086B /* 03.cpp */; };
+		CB14CEDF2493A5160078086B /* 04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB14CEDE2493A5160078086B /* 04.cpp */; };
 		CB1852B9243F68F800B3A346 /* BOJ_1261.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB1852B8243F68F800B3A346 /* BOJ_1261.cpp */; };
 		CB19DC2623C0838000ED66FA /* SWEA_2477.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB19DC2523C0838000ED66FA /* SWEA_2477.cpp */; };
 		CB1AA9C22439E1B900CF1E86 /* 03_02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB1AA9C12439E1B900CF1E86 /* 03_02.cpp */; };
@@ -260,6 +261,7 @@
 		CB149568246B79850051F389 /* BOJ_14499_RE_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_14499_RE_RE.cpp; sourceTree = "<group>"; };
 		CB14956A246B80E20051F389 /* BOJ_14500_RE_RE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_14500_RE_RE.cpp; sourceTree = "<group>"; };
 		CB14CEDC2493A4D30078086B /* 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03.cpp; sourceTree = "<group>"; };
+		CB14CEDE2493A5160078086B /* 04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 04.cpp; sourceTree = "<group>"; };
 		CB1852B8243F68F800B3A346 /* BOJ_1261.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ_1261.cpp; sourceTree = "<group>"; };
 		CB19DC2523C0838000ED66FA /* SWEA_2477.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWEA_2477.cpp; sourceTree = "<group>"; };
 		CB1AA9C12439E1B900CF1E86 /* 03_02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03_02.cpp; sourceTree = "<group>"; };
@@ -658,6 +660,7 @@
 				CBFF8A572456BE8E00501EEC /* 01.cpp */,
 				CB728B3624587979004CD11A /* 02.cpp */,
 				CB14CEDC2493A4D30078086B /* 03.cpp */,
+				CB14CEDE2493A5160078086B /* 04.cpp */,
 			);
 			path = "Stack&Queue";
 			sourceTree = "<group>";
@@ -1121,6 +1124,7 @@
 				CBA0296323F95D2A00C467F9 /* SWEA_5653.cpp in Sources */,
 				CB7EFF562488005000CE0B19 /* 02.cpp in Sources */,
 				CB398D19246FEFE200E4784A /* SWEA_1949_RE.cpp in Sources */,
+				CB14CEDF2493A5160078086B /* 04.cpp in Sources */,
 				CB84CDD82481251900F7403F /* BOJ_16236_RE_RE.cpp in Sources */,
 				CB9CFD262403B065007763DB /* BOJ_3190_RE.cpp in Sources */,
 				CB5C0E1F23E2A90300134C1A /* SWEA_1952.cpp in Sources */,
